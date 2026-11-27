@@ -88,8 +88,8 @@ with marginal `n⁻¹ Σ_j U[l_j, r_j]`. All of this is in `Mixes/Defs.lean`.
   property and is `n`-completely mixable for `n ≥ k + 1` (`classK_scalingProperty'`,
   `classK_jointlyMixable'`, `classK_completelyMixable'`, `cone_completelyMixable_iff'`), with
   Theorem 27 for the laws `G_{k,λ}` as the hypothesis `Thm27Frustum`. The ball case is
-  discharged from `Ball.lean` (`thm51Ball`). Lemma 59 is proved with the extra hypothesis
-  `max(m₁, m₂) ≥ 1`; without it the statement is false (`join_points_not_scaling`).
+  discharged from `Ball.lean` (`thm51Ball`). Lemma 59 is proved with its hypothesis
+  `max(m₁, m₂) ≥ 1`, which cannot be dropped (`join_points_not_scaling`).
 - **Remark 85, Lemmas 101, 102, 111, Propositions 106, 116, Corollaries 105, 114, 115**
   (`Large.lean`): Remark 85 (Minkowski–Radon, `asymLE_cent`, `centroid_support`,
   `neg_sub_cent_mem`) without hypotheses; Lemma 111(a), (b), (c) (`lemma111a`, `lemma111b`,
@@ -456,12 +456,9 @@ No statement treated was found false.
   projecting to `U(B_j)`, which avoids the uniqueness on the sphere; the polygon of Lemma 49 is
   formed with the index where the partial sums cross half the total, so that it depends
   measurably on the lengths. The remark after Proposition 52 is not formalised.
-- **Lemma 59 is false as stated.** It claims the scaling property with constant `2m`,
-  `m = max(m₁, m₂)`, for the join of two bodies, and allows bodies of dimension `0`. For two
-  points, which have the scaling property with every constant, take `m₁ = m₂ = 0`: the join is a
-  segment, and constant `0` fails for `n = 2`, `λ = (1, 0)` (`join_points_not_scaling`). The proof
-  step `2 max λ ≤ 2m max λ` needs `m ≥ 1`. With the hypothesis `max(m₁, m₂) ≥ 1` the lemma is
-  proved. Theorem 61 is unaffected, since there the constants are `a + 1 ≥ 1`.
+- Lemma 59: the hypothesis `m = max(m₁, m₂) ≥ 1` cannot be dropped. For two points with
+  `m₁ = m₂ = 0` the join is a segment, and the constant `0` fails for `n = 2`, `λ = (1, 0)`
+  (`join_points_not_scaling`).
 - Large: conditioned products are measures with a density relative to a reference measure:
   Lebesgue measure on the first `n − 1` coordinates of the hyperplane for Theorem 113 and
   Corollary 114, any finite measure for Proposition 116, its image under the maps `M_j⁻¹` for
@@ -514,11 +511,9 @@ No statement treated was found false.
   the proof of Theorem 113 and is a hypothesis here; the maximal-entropy claim of (a) is not
   formalised. In Proposition 109(c), for an affine `A` the support lies in an affine, not linear,
   subspace; the proof only uses its difference set, which is linear.
-- **Corollary 96(d), a gap in the proof.** The proof covers every `k`-gon with `k ≥ 8` "by (a)
-  and (b)", but (b) gives `n = 5` only for `k ≥ 9`, and (c) does not list `(k, n) = (8, 5)`;
-  condition (21) fails there (Table 14). The statement holds: the octagon is centrally symmetric,
-  hence 2-completely mixable, and `5 = 2 + 3` (Remark 81); `cor96d` uses this. In Corollary 96(a)
-  for `k = 7`, the paper's left side uses the sum `(8/9)·π²/6`; with `π²/6` it is `0.0629`, still
+- Corollary 96(d): for the octagon with `n = 5`, where condition (21) fails (Table 14), `cor96d`
+  uses, as the paper does, that the octagon is centrally symmetric, hence 2-completely mixable,
+  and `5 = 2 + 3` (Remark 81). In Corollary 96(a) for `k = 7`, the paper's left side uses the sum `(8/9)·π²/6`; with `π²/6` it is `0.0629`, still
   below the right side.
 - Proposition 87: "sliced in direction `e`" is defined in chord coordinates; the segments are
   shown non-collinear from their slopes, and the side case from the trapezoid hypothesis and
@@ -565,12 +560,10 @@ No statement treated was found false.
 - Proposition 98: `K` and `L` need only be measurable with `0 < |L|` and `|K| < ∞`; convexity,
   compactness and the centroid are not used, and `m ≠ 0` replaces `m ≥ 2`.
 - Further open questions: "explicit" random variables are not formalised, only the existence
-  of the mixes; `as:prop:complete` needs `ℓ ≥ 0` (for an empty family and `ℓ < 0` it fails); in
-  `as:thm:general` the constant is `κ = qH/(8d)` rather than `qH/(4d)`; `as:thm:hetero` is proved
-  with the stronger window `m₂H/2 − ℓ`; in `nc:cor:least` the range `n ≤ n₀` is `1 ≤ n ≤ n₀`, and
-  the necessity in `nc:prop:atom`(a) holds for every `n ≥ 2`; `lt:thm:large`(b) needs only vectors
-  of `Λ` spanning `Λ_ℝ`, and (c) only that the differences of the points have greatest common
-  divisor 1; in `pj:thm:main` the Gaussian smoothing exists for `δ = 1/(k+1)`, `k` large.
+  of the mixes; `prop_complete_b` assumes `ℓ ≥ 0`, which in the paper follows from `K ≥ 1`;
+  `as:thm:general` is proved for every `κ < qH/(4d)` (`AsymRate.thm_general_rate`);
+  `as:thm:hetero` is also proved with the stronger window `m₂H/2 − ℓ`; in `pj:thm:main` the
+  Gaussian smoothing exists for `δ = 1/(k+1)`, `k` large.
 
 ## What to read
 
