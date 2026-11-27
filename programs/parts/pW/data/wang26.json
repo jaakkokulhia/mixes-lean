@@ -1,0 +1,1273 @@
+{
+ "A1": {
+  "cases": 2057,
+  "cases_m3": 81,
+  "max_tuples": 3,
+  "mmax": 20,
+  "seconds": 1.218811273574829
+ },
+ "A2": {
+  "families": 400,
+  "worst_ratio": 1.0,
+  "grids": 297,
+  "grid_worst": 0.9583333333333334,
+  "seconds": 0.40973639488220215
+ },
+ "A3": {
+  "rows": [
+   {
+    "name": "gap",
+    "n": 24,
+    "m": 12,
+    "k": 12,
+    "R": 1.0,
+    "H": 0.16666666666666666,
+    "q": 0.5,
+    "bound": 24.0,
+    "tuples": 20000,
+    "max_sum_error": 5.329070518200751e-15,
+    "max_tilt": 0.16665305633661376,
+    "max_rest_dev": 0.16665305633661198,
+    "pmin": 0.5964950667722495,
+    "tests": 2
+   },
+   {
+    "name": "gap",
+    "n": 25,
+    "m": 12,
+    "k": 13,
+    "R": 1.0,
+    "H": 0.16666666666666666,
+    "q": 0.5,
+    "bound": 24.0,
+    "tuples": 20000,
+    "max_sum_error": 5.329070518200751e-15,
+    "max_tilt": 0.5799966208258773,
+    "max_rest_dev": 0.5799966208258756,
+    "pmin": 0.6113500191988703,
+    "tests": 2
+   },
+   {
+    "name": "atoms",
+    "n": 40,
+    "m": 12,
+    "k": 28,
+    "R": 3.0,
+    "H": 0.5,
+    "q": 0.3,
+    "bound": 40.0,
+    "tuples": 20000,
+    "max_sum_error": 7.105427357601002e-15,
+    "max_tilt": 1.1842378929335002e-15,
+    "max_rest_dev": 0.0,
+    "pmin": 0.12844072404145615,
+    "tests": 6
+   },
+   {
+    "name": "atoms",
+    "n": 41,
+    "m": 12,
+    "k": 29,
+    "R": 3.0,
+    "H": 0.5,
+    "q": 0.3,
+    "bound": 40.0,
+    "tuples": 20000,
+    "max_sum_error": 7.105427357601002e-15,
+    "max_tilt": 0.7499999999999988,
+    "max_rest_dev": 2.25,
+    "pmin": 0.13294173056504724,
+    "tests": 6
+   },
+   {
+    "name": "density 1/2 + x",
+    "n": 8,
+    "m": 4,
+    "k": 4,
+    "R": 1.0,
+    "H": 0.5,
+    "q": 0.5,
+    "bound": 8.0,
+    "tuples": 20000,
+    "max_sum_error": 8.881784197001252e-16,
+    "max_tilt": 0.5922827948468523,
+    "pmin": 0.8891906102700393,
+    "tests": 2
+   },
+   {
+    "name": "density 1/2 + x",
+    "n": 9,
+    "m": 4,
+    "k": 5,
+    "R": 1.0,
+    "H": 0.5,
+    "q": 0.5,
+    "bound": 8.0,
+    "tuples": 20000,
+    "max_sum_error": 1.7763568394002505e-15,
+    "max_tilt": 0.5656747356296954,
+    "pmin": 0.32532932687152927,
+    "tests": 2
+   }
+  ],
+  "windows": [
+   {
+    "name": "two points m/4, 3m/4",
+    "m": 8,
+    "tuples": 20000,
+    "max_sum_error": 2.220446049250313e-16,
+    "pmin": 0.4982042823357097,
+    "tests": 2,
+    "corr_first_sum": 0.8670782985291389
+   },
+   {
+    "name": "uniform on [m/4, 3m/4]",
+    "m": 8,
+    "tuples": 20000,
+    "max_sum_error": 1.7763568394002505e-15,
+    "pmin": 0.4971329603139879,
+    "tests": 2,
+    "corr_first_sum": 0.5068653060498919
+   },
+   {
+    "name": "three points",
+    "m": 4,
+    "tuples": 20000,
+    "max_sum_error": 4.440892098500626e-16,
+    "pmin": 0.030273459538250003,
+    "tests": 2,
+    "corr_first_sum": 0.6102132828835198
+   },
+   {
+    "name": "m = 3, two points 1, 2",
+    "m": 3,
+    "tuples": 20000,
+    "max_sum_error": 4.440892098500626e-16,
+    "pmin": 0.42480671820436877,
+    "tests": 2,
+    "corr_first_sum": 0.5763169470936083
+   }
+  ],
+  "completion": [
+   {
+    "name": "five discrete laws",
+    "laws": 5,
+    "uniforms": 4,
+    "grid": 60,
+    "tuples": 5000,
+    "max_sum_error": 1.7763568394002505e-15,
+    "max_tilt": 0.5250000000000008,
+    "max_osc": 1.0000000000000004,
+    "pmin": 0.18024534492890643,
+    "tests": 15
+   },
+   {
+    "name": "nine laws",
+    "laws": 9,
+    "uniforms": 5,
+    "grid": 240,
+    "tuples": 5000,
+    "max_sum_error": 3.552713678800501e-15,
+    "max_tilt": 0.0630826578530261,
+    "max_osc": 0.1189581718602124,
+    "pmin": 0.07427103639685884,
+    "tests": 21
+   }
+  ],
+  "Lshape": {
+   "n": 25,
+   "m": 8,
+   "tuples": 20000,
+   "max_sum_error": 1.4210854715202004e-14,
+   "max_tilt": 0.8333222616151907,
+   "max_dev": 0.8333222616151907,
+   "pmin": 0.09733286626567916,
+   "tests": 16
+  },
+  "seconds": 60.3523633480072
+ },
+ "A4": {
+  "rows": [
+   {
+    "d": 2,
+    "ball": 3.141592653589793,
+    "q": 0.15915494309189535,
+    "per_block": 46,
+    "N": 579
+   },
+   {
+    "d": 3,
+    "ball": 4.188790204786391,
+    "q": 0.013613059146217087,
+    "per_block": 125,
+    "N": 27548
+   },
+   {
+    "d": 4,
+    "ball": 4.934802200544679,
+    "q": 0.0007915717472057639,
+    "per_block": 256,
+    "N": 1293629
+   },
+   {
+    "d": 5,
+    "ball": 5.263789013914325,
+    "q": 3.4799777922817075e-05,
+    "per_block": 448,
+    "N": 64368227
+   },
+   {
+    "d": 6,
+    "ball": 5.16771278004997,
+    "q": 1.2289107770614042e-06,
+    "per_block": 706,
+    "N": 3446954880
+   },
+   {
+    "d": 7,
+    "ball": 4.7247659703314016,
+    "q": 3.6249352031752276e-08,
+    "per_block": 1038,
+    "N": 200444962262
+   },
+   {
+    "d": 8,
+    "ball": 4.0587121264167685,
+    "q": 9.178503383413853e-10,
+    "per_block": 1449,
+    "N": 12629509971035
+   }
+  ]
+ },
+ "A5": {
+  "selection": {
+   "configurations": 24,
+   "selections": 149997,
+   "samples": 1546,
+   "worst_ratio": 0.37954768928220256
+  },
+  "types": [
+   {
+    "name": "constant",
+    "copies": [
+     17,
+     7
+    ],
+    "uniform": [
+     8,
+     4
+    ],
+    "others": 3,
+    "capacity": 1.6666666666666665,
+    "rho": 0.6666666666666665,
+    "half_width": 0.55,
+    "grid": 240,
+    "tuples": 4000,
+    "max_sum_error": 3.552713678800501e-15,
+    "max_tilt": 0.20764094924889798,
+    "pmin": 0.20813163388984712,
+    "tests": 11
+   },
+   {
+    "name": "two points",
+    "copies": [
+     17,
+     7
+    ],
+    "uniform": [
+     8,
+     4
+    ],
+    "others": 3,
+    "capacity": 1.6666666666666665,
+    "rho": 0.6666666666666665,
+    "half_width": 0.55,
+    "grid": 240,
+    "tuples": 4000,
+    "max_sum_error": 3.552713678800501e-15,
+    "max_tilt": 0.5363058079899583,
+    "pmin": 0.20813163388984712,
+    "tests": 11
+   },
+   {
+    "name": "uniform",
+    "copies": [
+     17,
+     7
+    ],
+    "uniform": [
+     8,
+     4
+    ],
+    "others": 3,
+    "capacity": 1.6666666666666665,
+    "rho": 0.6666666666666665,
+    "half_width": 0.55,
+    "grid": 240,
+    "tuples": 4000,
+    "max_sum_error": 5.329070518200751e-15,
+    "max_tilt": 0.5252152760605433,
+    "pmin": 0.045387929038794385,
+    "tests": 11
+   }
+  ],
+  "different": [
+   {
+    "name": "common interval",
+    "n": 33,
+    "others": 2,
+    "b": 3,
+    "m1": 5,
+    "m2": 6,
+    "H": 0.5,
+    "ell": 1.0,
+    "rho": 0.0,
+    "half_width": 0.0,
+    "grid": 60,
+    "tuples": 5000,
+    "pmin": 0.0199436389463052,
+    "tests": 130,
+    "max_sum_error": 7.105427357601002e-15,
+    "max_tilt": 0.7396296296296284,
+    "max_shift": 0.3024444444444445,
+    "max_rest_dev": 0.7441666666666666
+   },
+   {
+    "name": "different intervals",
+    "n": 54,
+    "others": 3,
+    "b": 2,
+    "m1": 13,
+    "m2": 14,
+    "H": 0.25,
+    "ell": 1.0,
+    "rho": 0.5,
+    "half_width": 0.2,
+    "grid": 120,
+    "tuples": 4000,
+    "pmin": 0.005379827994605025,
+    "tests": 103,
+    "max_sum_error": 1.0658141036401503e-14,
+    "max_tilt": 0.4788059946064731,
+    "max_shift": 0.2007575295075295,
+    "max_rest_dev": 0.523652690320386
+   }
+  ],
+  "seconds": 49.0554141998291
+ },
+ "A6": {
+  "pairs": {
+   "cases": 2246,
+   "boundary": 99,
+   "max_tuples": 3
+  },
+  "windows": [
+   {
+    "name": "m = 3, two points",
+    "m": 3,
+    "length": 1.0,
+    "tuples": 20000,
+    "max_sum_error": 3.608224830031759e-16,
+    "pmin": 0.22557887559717504,
+    "tests": 2
+   },
+   {
+    "name": "m = 3, beta",
+    "m": 3,
+    "length": 1.0,
+    "tuples": 20000,
+    "max_sum_error": 5.551115123125783e-16,
+    "pmin": 0.5808637746360918,
+    "tests": 2
+   },
+   {
+    "name": "m = 4, two points, centred",
+    "m": 4,
+    "length": 2.0,
+    "tuples": 20000,
+    "max_sum_error": 4.440892098500626e-16,
+    "pmin": 0.9045242124726942,
+    "tests": 2
+   },
+   {
+    "name": "m = 4, two points",
+    "m": 4,
+    "length": 2.0,
+    "tuples": 20000,
+    "max_sum_error": 5.273559366969494e-16,
+    "pmin": 0.6596746591852247,
+    "tests": 2
+   },
+   {
+    "name": "m = 8, beta",
+    "m": 8,
+    "length": 4.0,
+    "tuples": 20000,
+    "max_sum_error": 1.6653345369377348e-15,
+    "pmin": 0.08987454174784215,
+    "tests": 2
+   }
+  ],
+  "rows": [
+   {
+    "name": "steps",
+    "n": 6,
+    "m": 3,
+    "k": 3,
+    "R": 1.0,
+    "H": 0.5,
+    "q": 0.5,
+    "bound_window": 8.0,
+    "tuples": 10000,
+    "max_sum_error": 8.881784197001252e-16,
+    "max_dev": 0.6388606056665781,
+    "partner_draws": 4.5025,
+    "pmin": 0.2659564872039484,
+    "tests": 2
+   },
+   {
+    "name": "steps",
+    "n": 7,
+    "m": 3,
+    "k": 4,
+    "R": 1.0,
+    "H": 0.5,
+    "q": 0.5,
+    "bound_window": 8.0,
+    "tuples": 10000,
+    "max_sum_error": 8.881784197001252e-16,
+    "max_dev": 0.5470941886380314,
+    "partner_draws": 3.0463,
+    "pmin": 0.0695021012454019,
+    "tests": 2
+   },
+   {
+    "name": "atom",
+    "n": 10,
+    "m": 3,
+    "k": 7,
+    "R": 1.0,
+    "H": 0.5,
+    "q": 0.32,
+    "bound_window": 12.5,
+    "tuples": 10000,
+    "max_sum_error": 1.7763568394002505e-15,
+    "max_dev": 0.5238696920263841,
+    "partner_draws": 19.0901,
+    "pmin": 0.466081807166587,
+    "tests": 4
+   },
+   {
+    "name": "gap",
+    "n": 12,
+    "m": 6,
+    "k": 6,
+    "R": 1.0,
+    "H": 0.16666666666666666,
+    "q": 0.5,
+    "bound_window": 24.0,
+    "tuples": 10000,
+    "max_sum_error": 2.6645352591003757e-15,
+    "max_dev": 0.16656573705830713,
+    "partner_draws": 4.0406,
+    "pmin": 0.17578141472985254,
+    "tests": 2
+   },
+   {
+    "name": "atoms",
+    "n": 21,
+    "m": 6,
+    "k": 15,
+    "R": 3.0,
+    "H": 0.5,
+    "q": 0.3,
+    "bound_window": 40.0,
+    "tuples": 10000,
+    "max_sum_error": 5.329070518200751e-15,
+    "max_dev": 2.2499999999999982,
+    "partner_draws": 3.9765,
+    "pmin": 0.02682300800470505,
+    "tests": 6
+   }
+  ],
+  "completion": {
+   "laws": 5,
+   "uniforms": 3,
+   "grid": 60,
+   "tuples": 5000,
+   "max_sum_error": 8.881784197001252e-16,
+   "partner_draws": 8.173,
+   "pmin": 0.035858744478187994,
+   "tests": 14
+  },
+  "seconds": 31.15098547935486
+ },
+ "B": {
+  "rows": [
+   {
+    "d": 2,
+    "c": "9/160",
+    "mu_on_E": -0.34375,
+    "Q_on_shift": 0.1,
+    "min_fibre_slack": 0.2587890625
+   },
+   {
+    "d": 3,
+    "c": "9/640",
+    "mu_on_E": -0.3859375,
+    "Q_on_shift": 0.1,
+    "min_fibre_slack": 0.21363525390625
+   },
+   {
+    "d": 4,
+    "c": "9/2560",
+    "mu_on_E": -0.396484375,
+    "Q_on_shift": 0.1,
+    "min_fibre_slack": 0.20290298461914064
+   },
+   {
+    "d": 5,
+    "c": "9/10240",
+    "mu_on_E": -0.39912109375,
+    "Q_on_shift": 0.1,
+    "min_fibre_slack": 0.2002546787261963
+   },
+   {
+    "d": 6,
+    "c": "9/40960",
+    "mu_on_E": -0.3997802734375,
+    "Q_on_shift": 0.1,
+    "min_fibre_slack": 0.19959477484226226
+   }
+  ],
+  "kappa": "9/10",
+  "eps": "1/4",
+  "w": "3/10",
+  "fibres": 5040,
+  "min_fibre_ratio": 0.2752257785403571,
+  "Q_min": 0.0,
+  "Q_mass_over_pi": 0.9999270899779047,
+  "m_mass_over_pi": 0.49999258280831965,
+  "seconds": 0.12638449668884277,
+  "clusters": [
+   {
+    "n": 3,
+    "multisets": 10,
+    "min_nonzero": 3
+   },
+   {
+    "n": 4,
+    "multisets": 35,
+    "min_nonzero": 4
+   },
+   {
+    "n": 5,
+    "multisets": 126,
+    "min_nonzero": 5
+   },
+   {
+    "n": 6,
+    "multisets": 462,
+    "min_nonzero": 6
+   },
+   {
+    "n": 7,
+    "multisets": 1716,
+    "min_nonzero": 7
+   }
+  ]
+ },
+ "C": {
+  "rows": [
+   {
+    "n": 3,
+    "p": "2/5",
+    "c": "9/20",
+    "eta": "1/50",
+    "mu": "12/25",
+    "n_mu": 1.44,
+    "sqrt": 1.4142135623730951,
+    "cx_min_inside": 0.02969625,
+    "cx_min": 0.0,
+    "cx_min_mixture": 0.0,
+    "cx_min_convolution": 0.0,
+    "Eh_upper": -0.064,
+    "Eh_proof": -0.028,
+    "eta_max": 0.027777777777777776,
+    "miss_lower": 0.028,
+    "miss_lower_uniform": 0.064,
+    "n_sufficient": 5,
+    "density_min": 0.6,
+    "density_max": 10.6
+   },
+   {
+    "n": 4,
+    "p": "3/5",
+    "c": "9/20",
+    "eta": "1/100",
+    "mu": "47/100",
+    "n_mu": 1.88,
+    "sqrt": 1.7320508075688772,
+    "cx_min_inside": 0.05221,
+    "cx_min": 0.0,
+    "cx_min_mixture": 0.0,
+    "cx_min_convolution": 0.0,
+    "Eh_upper": -0.168,
+    "Eh_proof": -0.152,
+    "eta_max": 0.02,
+    "miss_lower": 0.152,
+    "miss_lower_uniform": 0.168,
+    "n_sufficient": 8,
+    "density_min": 0.4,
+    "density_max": 30.4
+   },
+   {
+    "n": 5,
+    "p": "7/10",
+    "c": "9/20",
+    "eta": "1/100",
+    "mu": "93/200",
+    "n_mu": 2.325,
+    "sqrt": 2.0,
+    "cx_min_inside": 0.06633,
+    "cx_min": 0.0,
+    "cx_min_mixture": 0.0,
+    "cx_min_convolution": 0.0,
+    "Eh_upper": -0.205,
+    "Eh_proof": -0.19,
+    "eta_max": 0.015,
+    "miss_lower": 0.19,
+    "miss_lower_uniform": 0.205,
+    "n_sufficient": 10,
+    "density_min": 0.3,
+    "density_max": 35.3
+   },
+   {
+    "n": 10,
+    "p": "9/10",
+    "c": "9/20",
+    "eta": "1/400",
+    "mu": "91/200",
+    "n_mu": 4.55,
+    "sqrt": 3.0,
+    "cx_min_inside": 0.07021,
+    "cx_min": 0.0,
+    "cx_min_mixture": 0.0,
+    "cx_min_convolution": 0.0,
+    "Eh_upper": -0.48,
+    "Eh_proof": -0.4775,
+    "eta_max": 0.005,
+    "miss_lower": 0.4775,
+    "miss_lower_uniform": 0.48,
+    "n_sufficient": 30,
+    "density_min": 0.1,
+    "density_max": 180.1
+   },
+   {
+    "n": 3,
+    "p": "1/2",
+    "c": "12/25",
+    "eta": "1/200",
+    "mu": "49/100",
+    "n_mu": 1.47,
+    "sqrt": 1.4142135623730951,
+    "cx_min_inside": 0.028196875,
+    "cx_min": 0.0,
+    "cx_min_mixture": 0.0,
+    "cx_min_convolution": 0.0,
+    "Eh_upper": -0.2425,
+    "Eh_proof": -0.235,
+    "eta_max": 0.01,
+    "miss_lower": 0.235,
+    "miss_lower_uniform": 0.2425,
+    "n_sufficient": 6,
+    "density_min": 0.5,
+    "density_max": 50.5
+   },
+   {
+    "n": 3,
+    "p": "9/10",
+    "c": "49/100",
+    "eta": "1/2000",
+    "mu": "491/1000",
+    "n_mu": 1.473,
+    "sqrt": 1.4142135623730951,
+    "cx_min_inside": 0.00571085,
+    "cx_min": 0.0,
+    "cx_min_mixture": 0.0,
+    "cx_min_convolution": 0.0,
+    "Eh_upper": -0.84985,
+    "Eh_proof": -0.8497,
+    "eta_max": 0.001,
+    "miss_lower": 0.8497,
+    "miss_lower_uniform": 0.84985,
+    "n_sufficient": 30,
+    "density_min": 0.1,
+    "density_max": 900.1
+   }
+  ],
+  "control_min": -0.00372,
+  "lps": [
+   {
+    "N": 300,
+    "p": "3/10",
+    "c": 0.43333333333333335,
+    "dist": 0.0
+   },
+   {
+    "N": 300,
+    "p": "1/3",
+    "c": 0.45,
+    "dist": 0.0
+   },
+   {
+    "N": 300,
+    "p": "2/5",
+    "c": 0.45,
+    "dist": 0.07264673311184788
+   },
+   {
+    "N": 300,
+    "p": "1/2",
+    "c": 0.44,
+    "dist": 0.18161683277962123
+   },
+   {
+    "N": 600,
+    "p": "3/10",
+    "c": 0.43333333333333335,
+    "dist": 0.0
+   },
+   {
+    "N": 600,
+    "p": "1/3",
+    "c": 0.45,
+    "dist": 0.0
+   },
+   {
+    "N": 600,
+    "p": "2/5",
+    "c": 0.45,
+    "dist": 0.07265668330559785
+   },
+   {
+    "N": 600,
+    "p": "1/2",
+    "c": 0.44,
+    "dist": 0.18164170826400444
+   }
+  ],
+  "lps_f1": [
+   {
+    "N": 300,
+    "dist": 0.05300269200090236
+   },
+   {
+    "N": 600,
+    "dist": 0.05320965446090176
+   }
+  ],
+  "sims": [
+   {
+    "n": 3,
+    "p": 0.3,
+    "c": 0.45,
+    "levels": [
+     0,
+     1
+    ],
+    "tuples": 20000,
+    "max_sum_error": 3.1086244689504383e-15,
+    "pmin": 0.07346695649954896,
+    "tests": 4
+   },
+   {
+    "n": 3,
+    "p": 0.3333333333333333,
+    "c": 0.2,
+    "levels": [
+     1
+    ],
+    "tuples": 20000,
+    "max_sum_error": 2.220446049250313e-16,
+    "pmin": 0.13104342417783527,
+    "tests": 4
+   },
+   {
+    "n": 4,
+    "p": 0.4,
+    "c": 0.4,
+    "levels": [
+     1,
+     2
+    ],
+    "tuples": 20000,
+    "max_sum_error": 6.661338147750939e-16,
+    "pmin": 0.5971194527941459,
+    "tests": 4
+   },
+   {
+    "n": 4,
+    "p": 0.5,
+    "c": 0.1,
+    "levels": [
+     2
+    ],
+    "tuples": 20000,
+    "max_sum_error": 2.220446049250313e-16,
+    "pmin": 0.015592992455131637,
+    "tests": 4
+   },
+   {
+    "n": 5,
+    "p": 0.5,
+    "c": 0.25,
+    "levels": [
+     2,
+     3
+    ],
+    "tuples": 20000,
+    "max_sum_error": 4.440892098500626e-16,
+    "pmin": 0.01004896718012449,
+    "tests": 4
+   },
+   {
+    "n": 6,
+    "p": 0.37,
+    "c": 0.1,
+    "levels": [
+     2,
+     3
+    ],
+    "tuples": 20000,
+    "max_sum_error": 4.440892098500626e-16,
+    "pmin": 0.17482630730983884,
+    "tests": 4
+   },
+   {
+    "n": 7,
+    "p": 0.6,
+    "c": 0.0,
+    "levels": [
+     4,
+     5
+    ],
+    "tuples": 20000,
+    "max_sum_error": 6.661338147750939e-16,
+    "pmin": 0.10912310750968486,
+    "tests": 4
+   },
+   {
+    "n": 5,
+    "p": 0.45,
+    "c": 0.3,
+    "levels": [
+     2,
+     3
+    ],
+    "tuples": 20000,
+    "max_sum_error": 4.440892098500626e-16,
+    "pmin": 0.09097439350075709,
+    "tests": 4
+   }
+  ],
+  "least": [
+   {
+    "p": "2/5",
+    "c": "47/100",
+    "n_least": 4,
+    "n_corollary": 5,
+    "miss_at_3": 0.1,
+    "miss_before": 0.1,
+    "sim": {
+     "n": 4,
+     "p": 0.4,
+     "c": 0.47,
+     "levels": [
+      1,
+      2
+     ],
+     "tuples": 20000,
+     "max_sum_error": 4.440892098500626e-16,
+     "pmin": 0.0548971129914457,
+     "tests": 4
+    }
+   },
+   {
+    "p": "11/20",
+    "c": "47/100",
+    "n_least": 5,
+    "n_corollary": 7,
+    "miss_at_3": 0.325,
+    "miss_before": 0.1,
+    "sim": {
+     "n": 5,
+     "p": 0.55,
+     "c": 0.47,
+     "levels": [
+      2,
+      3
+     ],
+     "tuples": 20000,
+     "max_sum_error": 1.3322676295501878e-15,
+     "pmin": 0.1471240986757617,
+     "tests": 4
+    }
+   },
+   {
+    "p": "7/10",
+    "c": "47/100",
+    "n_least": 7,
+    "n_corollary": 10,
+    "miss_at_3": 0.55,
+    "miss_before": 0.1,
+    "sim": {
+     "n": 7,
+     "p": 0.7,
+     "c": 0.47,
+     "levels": [
+      4,
+      5
+     ],
+     "tuples": 20000,
+     "max_sum_error": 3.552713678800501e-15,
+     "pmin": 0.08395281829312773,
+     "tests": 4
+    }
+   },
+   {
+    "p": "17/20",
+    "c": "47/100",
+    "n_least": 14,
+    "n_corollary": 20,
+    "miss_at_3": 0.775,
+    "miss_before": 0.025,
+    "sim": {
+     "n": 14,
+     "p": 0.85,
+     "c": 0.47,
+     "levels": [
+      11,
+      12
+     ],
+     "tuples": 20000,
+     "max_sum_error": 2.6645352591003757e-15,
+     "pmin": 0.08658351224645766,
+     "tests": 4
+    }
+   }
+  ],
+  "alln": {
+   "n0": 6,
+   "p": "7/10",
+   "c": "23/50",
+   "eta": "1/100",
+   "cx_checked_to": 40,
+   "miss_bounds": [
+    0.541,
+    0.376,
+    0.205,
+    0.028
+   ],
+   "n_sufficient": 10,
+   "sim": {
+    "name": "f_1, all n <= 6",
+    "n": 10,
+    "m": 3,
+    "k": 7,
+    "R": 1.0,
+    "H": 0.5,
+    "q": 0.3,
+    "bound_window": 13.333333333333334,
+    "tuples": 10000,
+    "max_sum_error": 1.7763568394002505e-15,
+    "max_dev": 0.009999167375298601,
+    "partner_draws": 3.9823,
+    "pmin": 0.24756163557358513,
+    "tests": 2
+   },
+   "sim_next": {
+    "name": "f_1, all n <= 6",
+    "n": 11,
+    "m": 3,
+    "k": 8,
+    "R": 1.0,
+    "H": 0.5,
+    "q": 0.3,
+    "bound_window": 13.333333333333334,
+    "tuples": 10000,
+    "max_sum_error": 8.881784197001252e-16,
+    "max_dev": 0.5279719059102099,
+    "partner_draws": 12.4961,
+    "pmin": 0.3038054666041241,
+    "tests": 2
+   }
+  },
+  "seconds": 26.576098918914795
+ },
+ "C2": {
+  "densities": 300,
+  "tries": 4656,
+  "beta_max": 3.4143939019952954,
+  "beta_over_3": 15,
+  "lp_cases": 30,
+  "lp_max_dist": 0.0,
+  "tilt_max": 0.014230850621008288,
+  "mean_of_worst": 0.5141681228990349,
+  "at_3": 285,
+  "below_3": 0,
+  "noise": 1.5101111472404227e-09,
+  "min_excess": 0.004410149964151788,
+  "seconds": 5.448153972625732
+ },
+ "D_binomial": {
+  "Nmax": 12,
+  "nmax": 10,
+  "cases": 4104,
+  "mixable": 2916,
+  "agree": 4104,
+  "max_vectors": 12,
+  "mixable_np_not_integer": 2376
+ },
+ "D_three": {
+  "cases": 6457,
+  "agree": 6457
+ },
+ "D_alloc": {
+  "cases": 60
+ },
+ "D_ops": {
+  "cases": 37
+ },
+ "D_large": {
+  "law": "12/25, 1/25, 12/25",
+  "nmax": 40,
+  "mixable": [
+   2,
+   4,
+   6,
+   8,
+   10,
+   12,
+   14,
+   16,
+   18,
+   20,
+   22,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40
+  ],
+  "not_mixable": [
+   3,
+   5,
+   7,
+   9,
+   11,
+   13,
+   15,
+   17,
+   19,
+   21,
+   23
+  ]
+ },
+ "D_four": {
+  "support": [
+   0,
+   2,
+   3,
+   7
+  ],
+  "law": "3/10, 1/5, 2/5, 1/10",
+  "admissible": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   60,
+   70,
+   80,
+   90,
+   100
+  ],
+  "mixable": [
+   10,
+   20,
+   30,
+   40,
+   50,
+   60,
+   70,
+   80,
+   90,
+   100
+  ],
+  "bound": 30,
+  "first_mixable": 10
+ },
+ "D_logconcave": {
+  "law": "1/27, 18/27, 6/27, 2/27",
+  "n": 3,
+  "mixable": false
+ },
+ "D_three_general": {
+  "cases": 11592,
+  "agree": 11592,
+  "xmax": 8
+ },
+ "D_necessary": {
+  "examples": {
+   "A": {
+    "weights": [
+     1,
+     18,
+     6,
+     2
+    ],
+    "denominator": 27,
+    "sum": 4,
+    "mixable": false,
+    "convex_order": true,
+    "peak": [
+     1
+    ],
+    "counting": [
+     false,
+     0,
+     1,
+     1
+    ],
+    "tail": true,
+    "count_vectors": 3
+   },
+   "B": {
+    "weights": [
+     1,
+     18,
+     11,
+     7,
+     6,
+     3,
+     2
+    ],
+    "denominator": 48,
+    "sum": 7,
+    "mixable": false,
+    "convex_order": true,
+    "peak": null,
+    "counting": [
+     true,
+     0,
+     0,
+     2
+    ],
+    "tail": false,
+    "count_vectors": 7
+   },
+   "C": {
+    "weights": [
+     1,
+     3,
+     3,
+     4,
+     9,
+     15,
+     4
+    ],
+    "denominator": 39,
+    "sum": 12,
+    "mixable": false,
+    "convex_order": true,
+    "peak": null,
+    "counting": null,
+    "tail": false,
+    "count_vectors": 7
+   },
+   "E": {
+    "weights": [
+     6,
+     6,
+     1,
+     1,
+     1,
+     5
+    ],
+    "denominator": 20,
+    "n": 4,
+    "sum": 8,
+    "mixable": false,
+    "peak": null,
+    "convex_order": true,
+    "counting": null,
+    "tail": false
+   }
+  },
+  "search": [
+   {
+    "points": 4,
+    "denominators": [
+     12,
+     15,
+     18
+    ],
+    "n": [
+     3,
+     4,
+     5,
+     6
+    ],
+    "admissible": 950,
+    "not_mixable": 136,
+    "without_peak_violation": 0,
+    "convex_order_fails": 42
+   },
+   {
+    "points": 5,
+    "denominators": [
+     10,
+     12
+    ],
+    "n": [
+     3,
+     4,
+     5
+    ],
+    "admissible": 326,
+    "not_mixable": 32,
+    "without_peak_violation": 0,
+    "convex_order_fails": 6
+   }
+  ],
+  "mixable_checked": 1108
+ },
+ "D_seconds": 51.58594298362732,
+ "pvalues": {
+  "tests": 438,
+  "pmin": 0.005379827994605025,
+  "chance": 0.9058368068937517
+ },
+ "settings": {
+  "MC": 20000,
+  "SEED": 2026,
+  "NBIN": 12,
+  "NBOX": 10,
+  "NCUB": 300
+ },
+ "seconds": 225.93655633926392
+}

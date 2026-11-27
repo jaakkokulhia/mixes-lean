@@ -1,0 +1,720 @@
+% ---- part p11
+\newcommand{\NCasesOneMon}{28{,}080}
+\newcommand{\NBoundaryMon}{241}
+\newcommand{\NMaxOneMon}{20}
+\newcommand{\GridOneMon}{20}
+\newcommand{\MaxTuplesMon}{3}
+\newcommand{\NCaseAMon}{4{,}736}
+\newcommand{\NCaseRAMon}{4{,}295}
+\newcommand{\NCaseBMon}{5{,}556}
+\newcommand{\NCaseRBMon}{5{,}370}
+\newcommand{\NCaseCMon}{2{,}208}
+\newcommand{\NCaseRCMon}{2{,}115}
+\newcommand{\NCaseDMon}{1{,}900}
+\newcommand{\NCaseRDMon}{1{,}900}
+\newcommand{\NIdentMon}{2{,}000}
+\newcommand{\NIdentReflMon}{993}
+\newcommand{\NIdentSplitMon}{1{,}995}
+\newcommand{\NStepDensMon}{400}
+\newcommand{\NStepPairsMon}{1{,}535}
+\newcommand{\MaxStepsMon}{6}
+\newcommand{\NMCMon}{50{,}000}
+\newcommand{\NMCTestsMon}{6}
+\newcommand{\MCThresholdMon}{0.0061}
+\newcommand{\MCMaxSumErrMon}{2.7\times10^{-15}}
+\newcommand{\MCMinPMon}{0.19}
+\newcommand{\MCMaxPMon}{0.70}
+\newcommand{\MCMaxKSMon}{0.0048}
+\newcommand{\RunSecondsMon}{61}
+\newcommand{\MCRowsMon}{%
+$f\propto(1-x/2.5)^{1/2}$ & 3 & 2.5 & $8.9\times10^{-16}$ & 0.0048 & 0.19 \\
+$f\propto 1-x/3$ & 3 & 3 & $8.9\times10^{-16}$ & 0.0037 & 0.50 \\
+$f\propto(1-x/5)^{3}$ & 6 & 5 & $2.7\times10^{-15}$ & 0.0045 & 0.27 \\
+$f\propto x^{-1/2}$ & 3 & 3 & $8.9\times10^{-16}$ & 0.0032 & 0.70 \\
+$f\propto e^{-\lambda x}$ & 4 & 3.5 & $8.9\times10^{-16}$ & 0.0040 & 0.41 \\
+step density & 5 & 4.5 & $1.8\times10^{-15}$ & 0.0039 & 0.44 \\
+}
+
+% ---- part p12
+\newcommand{\GridOneJnt}{12}
+\newcommand{\NPointsOneJnt}{20{,}592}
+\newcommand{\NChecksOneJnt}{41{,}184}
+\newcommand{\NCellsOneJnt}{310{,}760}
+\newcommand{\MaxSegOneJnt}{5}
+\newcommand{\NCaseIJnt}{9{,}504}
+\newcommand{\NCaseIIJnt}{17{,}424}
+\newcommand{\NCaseIIzJnt}{3{,}168}
+\newcommand{\NCaseIIIaJnt}{7{,}136}
+\newcommand{\NCaseIIIbJnt}{3{,}952}
+\newcommand{\NBdyYzJnt}{1{,}584}
+\newcommand{\NBdyAzJnt}{1{,}716}
+\newcommand{\NBdyAyOneJnt}{792}
+\newcommand{\NBdyAyTwoJnt}{792}
+\newcommand{\NBdyBsJnt}{1{,}716}
+\newcommand{\NBdyBcJnt}{192}
+\newcommand{\NBdyCcJnt}{1{,}584}
+\newcommand{\NRandJnt}{2{,}000}
+\newcommand{\NIdentJnt}{2{,}000}
+\newcommand{\NUniJnt}{2{,}000}
+\newcommand{\NUniTightJnt}{377}
+\newcommand{\NSplitJnt}{2{,}000}
+\newcommand{\NSplitAzJnt}{427}
+\newcommand{\NSplitBsJnt}{196}
+\newcommand{\NSplitNoPartJnt}{0}
+\newcommand{\NLeavesJnt}{2{,}000}
+\newcommand{\NLeafBaseJnt}{1{,}246}
+\newcommand{\NLeafSplitJnt}{754}
+\newcommand{\NLeafAzJnt}{256}
+\newcommand{\NLeafZeroJnt}{117}
+\newcommand{\NLeafBsJnt}{213}
+\newcommand{\MaxSegLeafJnt}{8}
+\newcommand{\UniKLoJnt}{3}
+\newcommand{\UniKHiJnt}{9}
+\newcommand{\LeafNLoJnt}{3}
+\newcommand{\LeafNHiJnt}{8}
+\newcommand{\NLawsJnt}{600}
+\newcommand{\NLawsTightJnt}{200}
+\newcommand{\NLawsZeroJnt}{392}
+\newcommand{\NTuplesJnt}{1{,}892}
+\newcommand{\NSegmentsJnt}{87{,}525}
+\newcommand{\NMaxSegmentsJnt}{4{,}948}
+\newcommand{\NMaxNJnt}{7}
+\newcommand{\NLeafKindUJnt}{2}
+\newcommand{\NLeafKindBJnt}{13{,}041}
+\newcommand{\NLeafKindSJnt}{3{,}894}
+\newcommand{\NBlottoJnt}{300}
+\newcommand{\NBlottoSegmentsJnt}{77{,}887}
+\newcommand{\NBlottoMaxNJnt}{10}
+\newcommand{\NBlottoUJnt}{3}
+\newcommand{\NBlottoBJnt}{5{,}105}
+\newcommand{\NBlottoSJnt}{6{,}568}
+\newcommand{\MaxLeafSegJnt}{8}
+\newcommand{\StepNLoJnt}{3}
+\newcommand{\StepNHiJnt}{7}
+\newcommand{\StepKMaxJnt}{4}
+\newcommand{\BlottoNLoJnt}{3}
+\newcommand{\BlottoNHiJnt}{10}
+\newcommand{\NMCJnt}{50{,}000}
+\newcommand{\NMCTestsJnt}{5}
+\newcommand{\NMCCoordsJnt}{21}
+\newcommand{\MCThresholdJnt}{0.0061}
+\newcommand{\MCMaxSumErrJnt}{2.1\times10^{-14}}
+\newcommand{\MCMinPJnt}{0.090}
+\newcommand{\MCMaxKSJnt}{0.0056}
+\newcommand{\RunSecondsJnt}{62}
+\newcommand{\MCDescJnt}{(1) $\U[0,2]$; $(1-x/2.2)^{0.25}$ on $[0,2.2]$; $e^{-0.3x}$ on $[0,2.1]$; (2) $\U[0,2]$; $\U[0,2]$; $1-x/3$ on $[0,3]$; (3) $1-x/3$ on $[0,3]$; $x^{-1/2}$ on $(0,3]$; $e^{-0.6x}$ on $[0,3.2]$; the step density with slab measure $0.5\,\delta_{0.4}+0.3\,\delta_{1.6}+0.2\,\delta_{2.8}$; (4) $(1-x/3)^{3}$ on $[0,3]$; $(1-x/1.5)^{0.5}$ on $[0,1.5]$; $\U[0,1]$; $x^{-1/2}$ on $(0,2.4]$; $e^{-x}$ on $[0,2.5]$; (5) $(1-x/1.2)^{0.2}$ on $[0,1.2]$; $(1-x/1.6)^{0.7}$ on $[0,1.6]$; $(1-x/2)^{1.5}$ on $[0,2]$; $(1-x/2.4)^{2.5}$ on $[0,2.4]$; $(1-x/2.8)^{4}$ on $[0,2.8]$; $(1-x/3)^{6}$ on $[0,3]$}
+\newcommand{\MCRowsJnt}{%
+(1) & 3 & 2.9183 & 2.2 & $8.9\times10^{-16}$ & 0.0033 & 0.665 & 0 \\
+(2) & 3 & 3.0000 & 3 & $8.9\times10^{-16}$ & 0.0038 & 0.463 & 0 \\
+(3) & 4 & 3.7369 & 3.2 & $4.9\times10^{-15}$ & 0.0036 & 0.527 & 6{,}799 \\
+(4) & 5 & 3.2764 & 3 & $1.8\times10^{-15}$ & 0.0044 & 0.283 & 11{,}150 \\
+(5) & 6 & 3.0845 & 3 & $2.1\times10^{-14}$ & 0.0056 & 0.090 & 17{,}655 \\
+}
+
+% ---- part p14
+\newcommand{\NMaxOneConc}{20}
+\newcommand{\GridOneConc}{40}
+\newcommand{\NCasesOneConc}{738}
+\newcommand{\NBoundaryConc}{133}
+\newcommand{\NCaseBConc}{530}
+\newcommand{\NCaseDConc}{341}
+\newcommand{\MaxPartsConc}{2}
+\newcommand{\PeelRowsConc}{triangle $T$ & 0.4000 & 0 & 3.0000 & $2.3\cdot10^{-8}$ & $4.4\cdot10^{-9}$ & $1.8\cdot10^{-8}$ \\
+polygon $Q$ & 0.5267 & 2 & 3.0000 & $7.0\cdot10^{-8}$ & $4.5\cdot10^{-9}$ & $2.1\cdot10^{-8}$ \\
+$2(1-x)$ & 0.3333 & 0 & 3.0000 & $1.6\cdot10^{-8}$ & $4.8\cdot10^{-9}$ & $2.0\cdot10^{-8}$ \\
+trapezoid $Z$ & 0.4588 & 0 & 2.5943 & $2.2\cdot10^{-8}$ & $2.1\cdot10^{-9}$ & $1.3\cdot10^{-8}$ \\
+$\sqrt{x(1-x)}$ & 0.5000 & 0 & 2.0000 & $4.2\cdot10^{-8}$ & $2.6\cdot10^{-9}$ & $1.1\cdot10^{-8}$ \\
+$1-((x-0.25)/0.8)^2$ & 0.4157 & 0 & 3.0000 & $3.2\cdot10^{-8}$ & $1.1\cdot10^{-9}$ & $3.3\cdot10^{-9}$ \\
+$x^{0.3}(1-x)^{0.6}$ & 0.4483 & 0 & 3.0000 & $3.6\cdot10^{-8}$ & $1.7\cdot10^{-9}$ & $6.7\cdot10^{-9}$ \\
+$\sqrt x$ & 0.6000 & 0 & 3.0000 & $2.7\cdot10^{-8}$ & $2.4\cdot10^{-9}$ & $9.7\cdot10^{-9}$ \\}
+\newcommand{\DecompMaxConc}{$7.0\cdot10^{-8}$}
+\newcommand{\OdeMaxConc}{$4.8\cdot10^{-9}$}
+\newcommand{\BalMaxConc}{$7.0\cdot10^{-10}$}
+\newcommand{\MonoOKConc}{yes}
+\newcommand{\SwOneConc}{0.4804}
+\newcommand{\SwTwoConc}{0.8724}
+\newcommand{\MuTwoConc}{0.5267}
+\newcommand{\FmuTwoConc}{1.4083}
+\newcommand{\NSemicircleBadConc}{32}
+\newcommand{\SemicircleBalanceConc}{$7\cdot10^{-10}$}
+\newcommand{\TrapBetaMaxConc}{2.5943}
+\newcommand{\NRandConc}{1000}
+\newcommand{\RandSwConc}{776 with 0, 199 with 1, 23 with 2, 2 with 3}
+\newcommand{\RandSwZeroConc}{776}
+\newcommand{\RandSwOneConc}{199}
+\newcommand{\RandSwTwoConc}{23}
+\newcommand{\RandSwThreeConc}{2}
+\newcommand{\RandMaxSwConc}{3}
+\newcommand{\RandBetaExcessConc}{$2\cdot10^{-13}$}
+\newcommand{\RandOdeConc}{$4.7\cdot10^{-8}$}
+\newcommand{\RandDecompConc}{$3.1\cdot10^{-7}$}
+\newcommand{\NRandDecompConc}{100}
+\newcommand{\RandBadConc}{0}
+\newcommand{\RandMonoOKConc}{yes}
+\newcommand{\NLevConc}{4000}
+\newcommand{\NLevHalfConc}{2000}
+\newcommand{\NMCConc}{100\,000}
+\newcommand{\MCCritConc}{0.0043}
+\newcommand{\NMCFollowConc}{400\,000}
+\newcommand{\MCRowsConc}{triangle $T$ & 0.0021 (0.77) & 0.0031 (0.29) & 0.0043 (0.05) & 0.0035 (0.17) \\
+polygon $Q$ & 0.0019 (0.87) & 0.0057 (0.003) & 0.0022 (0.73) & 0.0028 (0.40) \\
+$2(1-x)$ & 0.0035 (0.17) & 0.0042 (0.06) & 0.0027 (0.45) & 0.0033 (0.23) \\
+$\sqrt{x(1-x)}$ & 0.0026 (0.49) & 0.0015 (0.98) & 0.0028 (0.43) & 0.0016 (0.96) \\
+$x^{0.3}(1-x)^{0.6}$ & 0.0017 (0.95) & 0.0023 (0.66) & 0.0029 (0.37) & 0.0043 (0.05) \\}
+\newcommand{\MCSumErrConc}{$2\cdot10^{-15}$}
+\newcommand{\MCMinPConc}{0.0033}
+\newcommand{\MCSecondPConc}{0.046}
+\newcommand{\MCMaxPConc}{0.98}
+\newcommand{\NMCTestsConc}{20}
+\newcommand{\MCMinPChanceConc}{0.064}
+\newcommand{\FollowDensityConc}{polygon $Q$}
+\newcommand{\FollowNConc}{4}
+\newcommand{\FollowMinPConc}{0.29}
+\newcommand{\FollowMaxPConc}{0.92}
+\newcommand{\UniRowsConc}{Beta$(1.5,3)$ & 0.3333 & 3.0000 & 3.0000 & 1.000 & 3 & 3 \\
+Beta$(2,3)$ & 0.4000 & 2.5000 & 3.0000 & 1.000 & 3 & 3 \\
+Beta$(2,5)$ & 0.2857 & 3.5000 & 3.5000 & 0.000 & 4 & 4 \\
+Beta$(3,5)$ & 0.3750 & 2.6667 & 2.9988 & 1.000 & 3 & 3 \\
+Beta$(2,8)$ & 0.2000 & 5.0000 & 5.0000 & 0.000 & 5 & 5 \\
+Beta$(4,6)$ & 0.4000 & 2.5000 & 2.9979 & 1.000 & 3 & 3 \\
+Beta$(5,10)$ & 0.3333 & 3.0000 & 3.0000 & 1.000 & 3 & 3 \\
+lognormal, $[0.2,10]$ & 0.4673 & 2.1398 & 3.1450 & 0.502 & 3 & 4 \\
+lognormal, $[0.2,15]$ & 0.4034 & 2.4787 & 3.5036 & 0.325 & 3 & 4 \\
+lognormal, $[0.2,20]$ & 0.3548 & 2.8183 & 3.8338 & 0.220 & 3 & 4 \\
+lognormal, $[0.2,21.6]$ & 0.3416 & 2.9277 & 3.9387 & 0.196 & 3 & 4 \\
+lognormal, $[0.2,22.6]$ & 0.3337 & 2.9963 & 4.0046 & 0.182 & 3 & 5 \\
+normal$(1.48,0.722^2)$, $[0,1]$ & 0.6398 & 2.7759 & 3.3037 & 0.241 & 3 & 4 \\}
+\newcommand{\NBetaConc}{200}
+\newcommand{\BetaMaxExcessConc}{$7.3\cdot10^{-6}$}
+\newcommand{\BetaSameNConc}{200}
+\newcommand{\BetaWorstAConc}{1.242}
+\newcommand{\BetaWorstBConc}{2.671}
+\newcommand{\BetaStartExcessConc}{$1.5\cdot10^{-5}$}
+\newcommand{\BetaStartExcessFineConc}{$2.0\cdot10^{-6}$}
+\newcommand{\NUniTotalConc}{213}
+\newcommand{\NBetaTableConc}{seven}
+\newcommand{\NBetaTotalConc}{207}
+\newcommand{\NPeelDensConc}{eight}
+\newcommand{\RunSecondsConc}{37}
+
+% ---- part pT
+\newcommand{\TrapCasesA}{142{,}816}
+\newcommand{\TrapSlackA}{0.0}
+\newcommand{\TrapMC}{200{,}000}
+\newcommand{\TrapRuns}{12}
+\newcommand{\TrapPvals}{24}
+\newcommand{\TrapSumDev}{1.8\cdot10^{-15}}
+\newcommand{\TrapKSx}{0.0029}
+\newcommand{\TrapKSv}{0.0032}
+\newcommand{\TrapPmin}{0.038}
+\newcommand{\TrapPminCount}{1}
+\newcommand{\TrapPolySlack}{7.7\cdot10^{-8}}
+\newcommand{\SecsTrap}{5}
+
+% ---- part pS
+\newcommand{\MomKMax}{6}
+\newcommand{\MomDeg}{6}
+\newcommand{\MomCount}{1{,}715}
+\newcommand{\NLevel}{400}
+\newcommand{\LevelKMax}{4}
+\newcommand{\LevelExtraPlus}{3}
+\newcommand{\NLevelTight}{267}
+\newcommand{\NLevelEqual}{29}
+\newcommand{\NLevelSeg}{139{,}977}
+\newcommand{\NLevelTuples}{1{,}314}
+\newcommand{\NLevelCells}{68{,}016}
+\newcommand{\LevelNMax}{7}
+\newcommand{\ConeRows}{Simplex & 2 & 3 & 40{,}000 & $4.5\cdot10^{-16}$ & 12 & 0.050 \\
+Simplex & 2 & 4 & 40{,}000 & $6.7\cdot10^{-16}$ & 16 & 0.044 \\
+Simplex & 2 & 5 & 40{,}000 & $4\cdot10^{-15}$ & 20 & 0.002 \\
+Simplex & 3 & 4 & 40{,}000 & $1.8\cdot10^{-15}$ & 20 & 0.010 \\
+Simplex & 3 & 5 & 40{,}000 & $7.2\cdot10^{-15}$ & 25 & 0.034 \\
+Simplex & 3 & 6 & 40{,}000 & $8\cdot10^{-15}$ & 30 & 0.020 \\
+Simplex & 4 & 5 & 40{,}000 & $6.5\cdot10^{-15}$ & 30 & 0.019 \\
+Simplex & 4 & 6 & 40{,}000 & $6.9\cdot10^{-15}$ & 36 & 0.032 \\
+Simplex & 4 & 7 & 40{,}000 & $1.3\cdot10^{-14}$ & 42 & 0.109 \\
+Simplex & 5 & 6 & 40{,}000 & $1.4\cdot10^{-14}$ & 42 & 0.041 \\
+Simplex & 5 & 7 & 40{,}000 & $1.8\cdot10^{-14}$ & 49 & 0.011 \\
+Simplex & 5 & 8 & 40{,}000 & $3\cdot10^{-14}$ & 56 & 0.004 \\
+Pyramid over a cube & 3 & 4 & 40{,}000 & $8.9\cdot10^{-16}$ & 12 & 0.143 \\
+Pyramid over a cube & 3 & 5 & 40{,}000 & $1.8\cdot10^{-15}$ & 15 & 0.063 \\
+Pyramid over a cube & 3 & 6 & 40{,}000 & $3.6\cdot10^{-15}$ & 18 & 0.030 \\
+Pyramid over a cube & 4 & 5 & 40{,}000 & $8.9\cdot10^{-16}$ & 20 & 0.141 \\
+Pyramid over a cube & 4 & 6 & 40{,}000 & $2.5\cdot10^{-14}$ & 24 & 0.038 \\
+Tetrahedron, Remark~\ref{s:rem:tetra} & 3 & 4 & 200{,}000 & $4.5\cdot10^{-16}$ & 20 & 0.001 \\
+Tetrahedron, Remark~\ref{s:rem:tetra} & 3 & 5 & 200{,}000 & $8.9\cdot10^{-16}$ & 25 & 0.140 \\
+Tetrahedron, Remark~\ref{s:rem:tetra} & 3 & 6 & 200{,}000 & $8.9\cdot10^{-16}$ & 30 & 0.010 \\
+Tetrahedron, Remark~\ref{s:rem:tetra} & 3 & 7 & 200{,}000 & $1.8\cdot10^{-15}$ & 35 & 0.002 \\}
+\newcommand{\ConeMC}{40{,}000}
+\newcommand{\ConeMCT}{200{,}000}
+\newcommand{\ConeSumDev}{3\cdot10^{-14}}
+\newcommand{\ConeTests}{577}
+\newcommand{\ConePmin}{0.0013}
+\newcommand{\ConeChance}{0.54}
+\newcommand{\SecsCone}{634}
+\newcommand{\SecsConeExact}{441}
+
+% ---- part pB
+\newcommand{\FrustumQThree}{0.2899}
+\newcommand{\FrustumRows}{3 & 0.290 & $0$ &  &  &  &  \\
+4 & 0.461 & 0.204 & $0$ &  &  &  \\
+5 & 0.568 & 0.344 & 0.167 & $0$ &  &  \\
+6 & 0.639 & 0.443 & 0.287 & 0.143 & $0$ &  \\
+7 & 0.691 & 0.517 & 0.378 & 0.250 & 0.125 & $0$ \\
+8 & 0.730 & 0.574 & 0.448 & 0.334 & 0.222 & 0.111 \\}
+\newcommand{\FrustumNMax}{8}
+\newcommand{\BodACases}{600}
+\newcommand{\BodAKMax}{10}
+\newcommand{\BodAGrid}{60}
+\newcommand{\BodMomCount}{1{,}844}
+\newcommand{\BodMomKMax}{5}
+\newcommand{\BodMomDeg}{5}
+\newcommand{\BodMomQs}{\tfrac{1}{3},\tfrac{1}{2},\tfrac{5}{7},\tfrac{9}{10}}
+\newcommand{\BodNLevel}{600}
+\newcommand{\BodLevelKMax}{4}
+\newcommand{\BodLevelNMax}{7}
+\newcommand{\BodNLevelTight}{347}
+\newcommand{\BodNLevelEqual}{133}
+\newcommand{\BodLevelSeg}{193{,}701}
+\newcommand{\BodLevelCells}{78{,}576}
+\newcommand{\BodLevelTuples}{2{,}314}
+\newcommand{\BodNConc}{300}
+\newcommand{\BodPolyCases}{20{,}000}
+\newcommand{\BodPolyErr}{1.8\cdot10^{-15}}
+\newcommand{\BodRows}{Ball & 2 & -- & 2--5 & 200{,}000 & $6.7\cdot10^{-16}$ & 28 & 0.027 \\
+Ball & 3 & -- & 2--5 & 200{,}000 & $6.7\cdot10^{-16}$ & 28 & 0.184 \\
+Ball & 5 & -- & 2--5 & 200{,}000 & $4.5\cdot10^{-16}$ & 28 & 0.153 \\
+Five scaled balls & 2 & -- & 5 & 200{,}000 & $4.5\cdot10^{-16}$ & 10 & 0.393 \\
+Five scaled balls & 3 & -- & 5 & 200{,}000 & $4.5\cdot10^{-16}$ & 10 & 0.247 \\
+Truncated simplex & 2 & 0.3 & 3 & 40{,}000 & $4.5\cdot10^{-16}$ & 9 & 0.146 \\
+Truncated simplex & 2 & 0.7 & 3 & 40{,}000 & $6.7\cdot10^{-16}$ & 9 & 0.586 \\
+Truncated simplex & 3 & 0.3 & 4 & 40{,}000 & $1.6\cdot10^{-15}$ & 16 & 0.034 \\
+Truncated simplex & 3 & 0.7 & 4 & 40{,}000 & $8.9\cdot10^{-16}$ & 16 & 0.031 \\
+Truncated simplex & 4 & 0.5 & 5 & 40{,}000 & $3.4\cdot10^{-15}$ & 25 & 0.019 \\
+Five truncated simplices & 3 & 0.5 & 5 & 40{,}000 & $9.6\cdot10^{-15}$ & 20 & 0.068 \\
+Frustum over a cube & 3 & 0.5 & 3, 4 & 40{,}000 & $6.7\cdot10^{-16}$ & 21 & 0.086 \\
+Frustum over a ball & 3 & 0.5 & 3, 4 & 40{,}000 & $7.8\cdot10^{-16}$ & 21 & 0.047 \\
+Frustum over a cube & 4 & 0.5 & 3, 4 & 40{,}000 & $4.5\cdot10^{-16}$ & 28 & 0.069 \\
+Frustum over a ball & 4 & 0.5 & 3, 4 & 40{,}000 & $7.8\cdot10^{-16}$ & 21 & 0.024 \\
+Prism $\Delta_2\times[0,1]$ & 3 & -- & 3, 4 & 40{,}000 & $6.7\cdot10^{-16}$ & 28 & 0.046 \\
+Cylinder $B_2\times[0,1]$ & 3 & -- & 2, 3 & 200{,}000 & $2.3\cdot10^{-16}$ & 10 & 0.324 \\
+Half-ball & 3 & -- & 4, 5 & 40{,}000 & $7.4\cdot10^{-15}$ & 27 & 0.005 \\
+Paraboloid & 3 & -- & 3, 4 & 40{,}000 & $1.4\cdot10^{-15}$ & 14 & 0.021 \\
+Join of two discs & 5 & -- & 4, 5 & 200{,}000 & $8.9\cdot10^{-16}$ & 27 & 0.108 \\}
+\newcommand{\BodSumDev}{9.6\cdot10^{-15}}
+\newcommand{\BodTests}{396}
+\newcommand{\BodPmin}{0.0051}
+\newcommand{\BodChance}{0.86}
+\newcommand{\BodMC}{40{,}000}
+\newcommand{\BodMCB}{200{,}000}
+\newcommand{\SecsBod}{203}
+
+% ---- part pO
+\newcommand{\OpnANDet}{22}
+\newcommand{\OpnANRand}{300}
+\newcommand{\OpnARandMax}{0.9995}
+\newcommand{\OpnADetExcess}{1.1\cdot10^{-13}}
+\newcommand{\OpnATightN}{6}
+\newcommand{\OpnATightErr}{9.4\cdot10^{-7}}
+\newcommand{\OpnATightPs}{1, 1.5, 2, 3, 5, 8}
+\newcommand{\OpnATetraErr}{5.5\cdot10^{-13}}
+\newcommand{\OpnASymErr}{1.2\cdot10^{-6}}
+\newcommand{\OpnANProj}{9}
+\newcommand{\OpnAOtherMax}{0.812}
+\newcommand{\OpnAMCN}{4}
+\newcommand{\OpnAMCSamples}{200{,}000}
+\newcommand{\OpnAMCSumDev}{8.9\cdot10^{-16}}
+\newcommand{\OpnAMCTests}{17}
+\newcommand{\OpnAMCPmin}{0.161}
+\newcommand{\OpnBKMax}{16}
+\newcommand{\OpnBIdErr}{7.7\cdot10^{-13}}
+\newcommand{\OpnBMassErr}{7\cdot10^{-13}}
+\newcommand{\OpnBHalfErr}{0}
+\newcommand{\OpnBClosedErr}{3.7\cdot10^{-15}}
+\newcommand{\OpnCRows}{Regular octahedron & 3 & 3 & 200{,}000 & $4.5\cdot10^{-16}$ & 9 & 0.066 \\
+Regular octahedron & 3 & 5 & 200{,}000 & $5.6\cdot10^{-16}$ & 15 & 0.079 \\
+Double cone over a disc & 3 & 3 & 200{,}000 & $4.8\cdot10^{-16}$ & 9 & 0.241 \\
+Bipyramid over a cube & 4 & 3 & 200{,}000 & $4.5\cdot10^{-16}$ & 12 & 0.082 \\
+Elongated octahedron, $h=\frac12$ & 3 & 3 & 200{,}000 & $1.2\cdot10^{-16}$ & 9 & 0.152 \\}
+\newcommand{\OpnCTests}{54}
+\newcommand{\OpnCPmin}{0.066}
+\newcommand{\OpnCChance}{0.98}
+\newcommand{\OpnCSumDev}{5.6\cdot10^{-16}}
+\newcommand{\OpnCSamples}{200{,}000}
+\newcommand{\OpnDRows}{Half-disc & with & $1.9\cdot10^{-3}$ & $1.2\cdot10^{-3}$ & $2.2\cdot10^{-4}$ & $2.2\cdot10^{-4}$ \\
+ & without & $1.2\cdot10^{-3}$ & $1.2\cdot10^{-3}$ & $2.2\cdot10^{-4}$ & $2.2\cdot10^{-4}$ \\
+Regular pentagon & with & $8.9\cdot10^{-5}$ & $1.9\cdot10^{-5}$ & $1.8\cdot10^{-5}$ & $1.8\cdot10^{-5}$ \\
+ & without & $2.3\cdot10^{-5}$ & $1.9\cdot10^{-5}$ & $1.8\cdot10^{-5}$ & $1.8\cdot10^{-5}$ \\
+Kite & with & $4\cdot10^{-4}$ & $1\cdot10^{-4}$ & $2.5\cdot10^{-5}$ & $6.2\cdot10^{-6}$ \\
+ & without & $0$ & $0$ & $0$ & $0$ \\
+Triangle & with & $1.2\cdot10^{-5}$ & $2.9\cdot10^{-6}$ & $7.3\cdot10^{-7}$ & $1.9\cdot10^{-7}$ \\
+ & without & $1.2\cdot10^{-5}$ & $2.9\cdot10^{-6}$ & $7.3\cdot10^{-7}$ & $1.9\cdot10^{-7}$ \\
+Disc & with & $0$ & $0$ & $0$ & $0$ \\
+ & without & $0$ & $0$ & $0$ & $0$ \\}
+\newcommand{\OpnDJs}{120, 240, 480, 960}
+\newcommand{\OpnDJMax}{960}
+\newcommand{\OpnDJMin}{120}
+\newcommand{\OpnDSymDiff}{5.4\cdot10^{-16}}
+\newcommand{\OpnDKiteRatioLo}{3.99}
+\newcommand{\OpnDKiteRatioHi}{4.01}
+\newcommand{\OpnDKiteLast}{6.2\cdot10^{-6}}
+\newcommand{\OpnDCtrlDiff}{0}
+\newcommand{\OpnDMoreDiff}{1.5\cdot10^{-16}}
+\newcommand{\OpnDMoreN}{12}
+\newcommand{\SecsOpn}{65}
+
+% ---- part pG
+\newcommand{\GenAOneCases}{400}
+\newcommand{\GenAOneTight}{153}
+\newcommand{\GenAOneZero}{52}
+\newcommand{\GenAOneEqual}{52}
+\newcommand{\GenAOneBetaTwo}{95}
+\newcommand{\GenAOneSegments}{84{,}252}
+\newcommand{\GenAOneNmax}{8}
+\newcommand{\GenAOneBase}{11{,}440}
+\newcommand{\GenAOneSplit}{5{,}111}
+\newcommand{\GenAOneU}{373}
+\newcommand{\GenATwoCases}{300}
+\newcommand{\GenATwoEq}{49}
+\newcommand{\GenAThreeCases}{300}
+\newcommand{\GenAThreeJoins}{13}
+\newcommand{\GenAFourKmax}{6}
+\newcommand{\GenAFourDF}{40}
+\newcommand{\GenAFourCHtwo}{40}
+\newcommand{\GenAFourCHmore}{59}
+\newcommand{\PlateauBound}{0.7176}
+\newcommand{\DecRZero}{1.0515}
+\newcommand{\DecRSum}{1.0627}
+\newcommand{\GenBPentErr}{4.9\cdot10^{-9}}
+\newcommand{\PolyHStep}{0.0005}
+\newcommand{\PolyRows}{6 & 0.5000 & $[0.6965,\,0.9995]$ & 0.7725 & 0.2627 & 0.2626 \\
+8 & 0.4142 & $[0.6740,\,0.8280]$ & 0.7070 & 0.1209 & 0.1214 \\
+10 & 0.3090 & $[0.6545,\,0.7635]$ & 0.6885 & 0.1298 & 0.1283 \\
+12 & 0.2679 & $[0.6565,\,0.7320]$ & 0.6710 & 0.0715 & 0.0704 \\
+14 & 0.2225 & $[0.6570,\,0.6920]$ & 0.6635 & 0.0301 & 0.0292 \\
+16 & 0.1989 & $[0.6540,\,0.6680]$ & 0.6575 & 0.0161 & 0.0151 \\
+18 & 0.1736 & $[0.6500,\,0.6525]$ & 0.6505 & 0.0047 & 0.0025 \\
+20 & 0.1583 & none & & & \\}
+\newcommand{\PolyNoneLo}{20}
+\newcommand{\PolyNoneHi}{60}
+\newcommand{\PolyOkHi}{18}
+\newcommand{\GenBNbodies}{9}
+\newcommand{\GenBIdErr}{9.6\cdot10^{-6}}
+\newcommand{\GenBMassErr}{3.4\cdot10^{-7}}
+\newcommand{\GenCRows}{$3(1-x)^2$ & \ref{g:thm:scaled} & 1 & 4 & equal & $2.3\cdot10^{-16}$ & 4 & 0.486 \\
+$4(1-x)^3$ & \ref{g:thm:scaled} & 1 & 6 & 5 & $3.2\cdot10^{-15}$ & 6 & 0.019 \\
+Polygon $Q$ & \ref{g:thm:scaled} & 1 & 4 & 3 & $9.4\cdot10^{-15}$ & 4 & 0.166 \\
+Projection of a tetrahedron & \ref{g:thm:scaled} & 1 & 5 & 4 & $6.7\cdot10^{-16}$ & 5 & 0.284 \\
+Beta$(2,4)$ & \ref{g:thm:scaled} & 1 & 5 & 3.4 & $1.4\cdot10^{-15}$ & 5 & 0.151 \\
+Hip roof, $\beta=\frac12$ & \ref{g:thm:prod} & 3 & 4 & equal & $7.8\cdot10^{-16}$ & 12 & 0.012 \\
+Hip roof, $\beta=\frac12$ & \ref{g:thm:prod} & 3 & 5 & 4 & $8.4\cdot10^{-16}$ & 15 & 0.015 \\
+Frustum, top $[-\frac14,\frac14]\times[-\frac35,\frac35]$ & \ref{g:thm:prod} & 3 & 4 & equal & $7.3\cdot10^{-16}$ & 12 & 0.061 \\
+Join of a segment and a disc & \ref{g:thm:prod} & 4 & 5 & equal & $4\cdot10^{-15}$ & 20 & 0.286 \\
+Half-ball & \ref{g:thm:prod} & 3 & 5 & 4 & $1.2\cdot10^{-14}$ & 15 & 0.018 \\
+Regular pentagon & \ref{g:thm:prod} & 2 & 6 & equal & $1.2\cdot10^{-14}$ & 12 & 0.081 \\
+Regular pentagon & \ref{g:thm:prod} & 2 & 7 & equal & $2.6\cdot10^{-14}$ & 14 & 0.014 \\
+Regular octagon & \ref{g:thm:bipyr} & 2 & 3 & equal & $3.4\cdot10^{-16}$ & 6 & 0.122 \\
+Regular octagon & \ref{g:thm:bipyr} & 2 & 5 & equal & $4.5\cdot10^{-16}$ & 10 & 0.078 \\
+Regular decagon & \ref{g:thm:bipyr} & 2 & 3 & equal & $4.5\cdot10^{-16}$ & 6 & 0.187 \\
+Hexagon, $\rho=0.3$ & \ref{g:thm:bipyr} & 2 & 3 & equal & $4.5\cdot10^{-16}$ & 6 & 0.0005 \\
+Stadium, $h'=\frac34$ & \ref{g:thm:bipyr} & 2 & 3 & equal & $1.2\cdot10^{-16}$ & 6 & 0.281 \\
+Elongated octahedron, $h'=\frac34$ & \ref{g:thm:bipyr} & 3 & 3 & equal & $1.2\cdot10^{-16}$ & 9 & 0.019 \\}
+\newcommand{\GenCTests}{167}
+\newcommand{\GenCPmin}{0.0005}
+\newcommand{\GenCChance}{0.09}
+\newcommand{\GenCSumDev}{2.6\cdot10^{-14}}
+\newcommand{\GenCSamples}{20{,}000}
+\newcommand{\GenCWorst}{Hexagon, $\rho=0.3$}
+\newcommand{\GenCFollowSamples}{80{,}000}
+\newcommand{\GenCFollowLo}{0.051}
+\newcommand{\GenCFollowHi}{0.082}
+\newcommand{\SecsGen}{35}
+\newcommand{\PolyEightyMin}{0.0025}
+\newcommand{\PolyEightyDiff}{5.3\cdot10^{-16}}
+\newcommand{\PolyEightyDigits}{80}
+
+% ---- part pR
+\newcommand{\RegCthree}{5.7885}
+\newcommand{\RegLensOne}{1.2283}
+\newcommand{\RegCfourHi}{14.252}
+\newcommand{\RegAfourOne}{3.398}
+\newcommand{\RegAfiveOne}{9.242}
+\newcommand{\RegAfourRnine}{3.143}
+\newcommand{\RegAfiveRnine}{8.724}
+\newcommand{\RegAfourReight}{3.071}
+\newcommand{\RegThreeL}{0.0383}
+\newcommand{\RegThreeR}{0.0656}
+\newcommand{\RegFourL}{0.0240}
+\newcommand{\RegFourR}{0.0315}
+\newcommand{\RegFourEightR}{0.0246}
+\newcommand{\RegFiveL}{0.0094}
+\newcommand{\RegFiveR}{0.0137}
+\newcommand{\RegSevenFourL}{0.060}
+\newcommand{\RegSevenFourR}{0.013}
+\newcommand{\RegSevenFiveL}{0.024}
+\newcommand{\RegSevenFiveR}{0.007}
+\newcommand{\RegFiveThreeL}{0.234}
+\newcommand{\RegFiveThreeR}{-0.016}
+\newcommand{\HeptCapGrid}{0.0998}
+\newcommand{\HeptCap}{0.1279}
+\newcommand{\HeptCorners}{0.2294}
+\newcommand{\HeptN}{0.0729}
+\newcommand{\HeptNcrude}{0.1306}
+\newcommand{\HeptL}{0.0560}
+\newcommand{\HeptR}{0.0712}
+\newcommand{\HeptRatio}{8.54}
+\newcommand{\HeptNmin}{9}
+\newcommand{\RegRows}{5 & 0.2340 & $-$0.0152$^*$ & 0.2855 & $-$0.0410$^*$ & \multicolumn{2}{c}{fails} \\
+6 & \multicolumn{2}{c}{trivial} & 0.0931 & $-$0.0045$^*$ & 0.0434 & 0.0013$^*$ \\
+7 & 0.0560 & 0.0528$^*$ & 0.0598 & 0.0138$^*$ & 0.0231 & 0.0075$^*$ \\
+8 & 0.0340 & 0.0656 & \multicolumn{2}{c}{trivial} & 0.0139 & 0.0113$^*$ \\
+9 & \multicolumn{2}{c}{trivial} & 0.0225 & 0.0315 & 0.0090 & 0.0137 \\
+10 & 0.0155 & 0.0794 & 0.0123 & 0.0362 & \multicolumn{2}{c}{trivial} \\
+11 & 0.0113 & 0.0834 & 0.0110 & 0.0397 & 0.0045 & 0.0167 \\
+12 & \multicolumn{2}{c}{trivial} & \multicolumn{2}{c}{trivial} & 0.0034 & 0.0176 \\
+13 & 0.0065 & 0.0887 & 0.0062 & 0.0442 & 0.0026 & 0.0183 \\
+14 & 0.0051 & 0.0905 & 0.0039 & 0.0457 & 0.0020 & 0.0189 \\
+15 & \multicolumn{2}{c}{trivial} & 0.0039 & 0.0469 & \multicolumn{2}{c}{trivial} \\
+16 & 0.0033 & 0.0931 & \multicolumn{2}{c}{trivial} & 0.0013 & 0.0197 \\}
+\newcommand{\RegEightPhi}{1.2\cdot10^{-2}}
+\newcommand{\RegEightPhiBound}{3.4\cdot10^{-2}}
+\newcommand{\RegEightT}{0.0825}
+\newcommand{\RegEightTBound}{0.0656}
+\newcommand{\RegEightNu}{0.0425}
+\newcommand{\RegEightNuBound}{0.0956}
+\newcommand{\RegEightModes}{40}
+\newcommand{\RegTwentyPhi}{6.7\cdot10^{-4}}
+\newcommand{\RegTwentyPhiBound}{1.7\cdot10^{-3}}
+\newcommand{\RegTwentyT}{0.0983}
+\newcommand{\RegTwentyTBound}{0.0961}
+\newcommand{\RegTwentyNu}{0.0067}
+\newcommand{\RegTwentyNuBound}{0.0137}
+\newcommand{\RegTwentyModes}{40}
+\newcommand{\RegSimN}{300{,}000}
+\newcommand{\RegSimSum}{4.5\cdot10^{-16}}
+\newcommand{\RegSimTests}{9}
+\newcommand{\RegSimP}{0.014}
+\newcommand{\RegSimChance}{0.13}
+\newcommand{\SecsReg}{34}
+
+% ---- part pL
+\newcommand{\LgRows}{Disc & 1.000 & 2.89 (0.21) & 1.62 (0.15) & 1.51 (0.07) & 1.29 (0.04) \\
+Square & 1.000 & 5.07 (0.52) & 2.01 (0.24) & 1.85 (0.07) & 1.45 (0.05) \\
+Regular pentagon & 1.236 & 2.52 (0.34) & 1.95 (0.12) & 1.69 (0.08) & 1.39 (0.05) \\
+Regular heptagon & 1.110 & 2.92 (0.46) & 1.75 (0.14) & 1.59 (0.07) & 1.34 (0.04) \\
+Half-disc & 1.439 & 3.30 (0.51) & 2.30 (0.14) & 1.95 (0.11) & 1.51 (0.06) \\
+Kite & 1.470 & 4.21 (0.74) & 2.42 (0.25) & 2.09 (0.20) & 1.56 (0.09) \\
+Quadrilateral & 1.235 & 4.33 (0.67) & 2.15 (0.30) & 1.94 (0.23) & 1.49 (0.08) \\
+Triangle & 2.000 & --- & 3.05 (0.23) & 2.36 (0.14) & 1.69 (0.09) \\}
+\newcommand{\LgTilt}{0.009}
+\newcommand{\LgChange}{0.015}
+\newcommand{\LgLipMax}{4.9}
+\newcommand{\LgLipMaxEight}{1.6}
+\newcommand{\LgRateMax}{0.75}
+\newcommand{\LgTriRatios}{$14$, $67$, $15$, $24$, $174$}
+\newcommand{\LgQuadNR}{4.41, 3.15, 3.39, 3.28, 3.26}
+\newcommand{\LgQuadNRlo}{3.1}
+\newcommand{\LgQuadNRhi}{3.4}
+\newcommand{\LgLeakRatio}{1.26}
+\newcommand{\LgLeakPixels}{1{,}446}
+\newcommand{\LgLeakEx}{for $t=2$ steps in the second direction the total variation is $0.235$, against $0.092$ for the largest single coordinate, $0.220$ for their sum and $0.493$ for the bound}
+\newcommand{\LgLeakLip}{1.6}
+\newcommand{\SecsLg}{26}
+
+% ---- part pJ
+\newcommand{\JlRows}{A & $3$ & $D,\ D_+,\ D_-$ & $\frac1{32},\frac1{64}$ & 37 & 3.43 & 7.5 & 0.012 \\
+A & $4$ & $2D_+,\ 2D_-$ & $\frac1{32},\frac1{64}$ & 11 & 0.75 & 1.9 & 0.002 \\
+A & $6$ & $2D,\ 2D_+,\ 2D_-$ & $\frac1{24},\frac1{48}$ & 9 & 0.61 & 1.2 & 0.001 \\
+A & $8$ & $2D,\ 3D_+,\ 3D_-$ & $\frac1{24},\frac1{48}$ & 9 & 0.50 & 1.0 & 0.001 \\
+B & $4$ & $4g_B$ & $\frac1{32},\frac1{64}$ & 11 & 0.82 & 2.2 & 0.001 \\
+B & $5$ & $5g_B$ & $\frac1{32},\frac1{64}$ & 10 & 0.67 & 1.6 & 0.001 \\
+B & $8$ & $8g_B$ & $\frac1{24},\frac1{48}$ & 9 & 0.41 & 0.9 & 0.001 \\
+C & $3$ & $1,\ 0.8\,e^{25^\circ i},\ 0.6\,e^{50^\circ i}$ & $\frac1{32},\frac1{64}$ & 19 & 2.82 & 5.0 & 0.005 \\
+C & $4$ & $1,\ 0.9\,e^{20^\circ i},\ 0.7\,e^{40^\circ i},\ 0.5\,e^{70^\circ i}$ & $\frac1{32},\frac1{64}$ & 9 & 1.45 & 1.8 & 0.001 \\
+C & $6$ & $1,\ 0.95\,e^{15^\circ i},\ \dots,\ 0.55\,e^{75^\circ i}$ & $\frac1{24},\frac1{48}$ & 7 & 0.85 & 0.9 & 0.001 \\
+D & $3$ & $T,\ S,\ P$ & $\frac1{32},\frac1{64}$ & 15 & 1.30 & 2.6 & 0.012 \\
+D & $4$ & $T,\ S,\ P,\ D'$ & $\frac1{32},\frac1{64}$ & 10 & 0.91 & 1.5 & 0.002 \\
+D & $5$ & $2T,\ S,\ P,\ D'$ & $\frac1{32},\frac1{64}$ & 10 & 0.76 & 1.3 & 0.002 \\}
+\newcommand{\JlErrMax}{10^{-10}}
+\newcommand{\JlChangeMax}{0.012}
+\newcommand{\JlRateMax}{0.54}
+\newcommand{\JlBalMax}{3\cdot10^{-3}}
+\newcommand{\JlNR}{3.29, 3.39, 3.30, 3.23}
+\newcommand{\JlNRlo}{3.2}
+\newcommand{\JlNRhi}{3.4}
+\newcommand{\JlBdRanges}{3.69, 3.97, 4.41, 4.70, 5.10}
+\newcommand{\JlBdLips}{17, 23, 35, 47, 70}
+\newcommand{\JlBdDens}{\frac1{24}, \frac1{32}, \frac1{48}, \frac1{64}, \frac1{96}}
+\newcommand{\SecsJl}{49}
+
+% ---- part pM
+\newcommand{\MkT}{20{,}000}
+\newcommand{\MkSumDev}{2\cdot10^{-15}}
+\newcommand{\MkTests}{42}
+\newcommand{\MkPmin}{0.032}
+\newcommand{\MkChance}{0.74}
+\newcommand{\MkCorr}{0.017}
+\newcommand{\MkSlope}{0.010}
+\newcommand{\MkCases}{$\rho=0.3$ with $n=3$, $\rho=0.5$ with $n=4$, $\rho=0.7$ with $n=7$}
+\newcommand{\MkRows}{$0$ & $2$ & 0.500 & 0.032 & 0.064 & 0.127 \\
+$0.3$ & $3$ & 0.380 & 0.039 & 0.077 & 0.154 \\
+$0.5$ & $4$ & 0.358 & 0.045 & 0.090 & 0.180 \\
+$0.7$ & $7$ & 0.378 & 0.057 & 0.114 & 0.227 \\
+$0.9$ & $20$ & 0.501 & 0.104 & 0.206 & 0.400 \\}
+\newcommand{\MkLbZero}{0.032}
+\newcommand{\MkLbNine}{0.104}
+\newcommand{\MkRatioNine}{3.3}
+\newcommand{\SecsMk}{12}
+
+% ---- part pP
+\newcommand{\PwCthreeErr}{1.4\cdot10^{-14}}
+\newcommand{\PwRows}{5 & 3 & 0.0554 & 0.0942 & 0.2372 & 0.2752 & 0.0381 & 0.0393 \\
+5 & 4 & 0.0062 & 0.1438 & 0.1811 & 0.2752 & 0.0941 & 0.0964 \\
+7 & 4 & 0.0016 & 0.0732 & 0.0826 & 0.2966 & 0.2140 & 0.2147 \\
+7 & 5 & 0.0002 & 0.0990 & 0.1019 & 0.2966 & 0.1948 & 0.1954 \\}
+\newcommand{\PwMinMargin}{0.038}
+\newcommand{\PwMaxChange}{2.3\cdot10^{-3}}
+\newcommand{\PwJ}{48}
+\newcommand{\PwJfine}{64}
+\newcommand{\PwNodes}{320}
+\newcommand{\PwNodesFine}{480}
+\newcommand{\PwAngles}{4096}
+\newcommand{\PwAnglesFine}{8192}
+\newcommand{\PwPentT}{0.0554}
+\newcommand{\PwMassErr}{4.2\cdot10^{-7}}
+\newcommand{\PwSynthErr}{1.3\cdot10^{-5}}
+\newcommand{\PwSimN}{300{,}000}
+\newcommand{\PwSimTests}{64}
+\newcommand{\PwSimP}{0.018}
+\newcommand{\PwSimChance}{0.70}
+\newcommand{\PwSimSum}{4.5\cdot10^{-16}}
+\newcommand{\SecsPw}{461}
+\newcommand{\SymmVolErr}{1.8\cdot10^{-15}}
+\newcommand{\SymmRatioOneTwenty}{1.158}
+\newcommand{\SymmRatioSixHundred}{1.067}
+\newcommand{\SymmRows}{dodecahedron & 3 & 5 & 3 & ball & 1.3251 & 0.3998 & 0.4000 & 20 & 0.0003 \\
+icosahedron & 3 & 5 & 3 & ball & 1.2066 & 0.3998 & 0.4000 & 20 & 0.1119 \\
+$24$-cell & 4 & 5 & 3 & ball & 1.6212 & 0.3996 & 0.4000 & 20 & 0.1338 \\
+$120$-cell & 4 & 5 & 3 & ball & 1.1575 & 0.4000 & 0.4000 & 20 & 0.2084 \\
+$600$-cell & 4 & 5 & 3 & ball & 1.0664 & 0.3995 & 0.4000 & 20 & 0.0087 \\
+cross-polytope & 4 & 5 & 3 & double cone & 1.6540 & 0.3992 & 0.4000 & 20 & 0.1844 \\
+cross-polytope & 5 & 7 & 3 & double cone & 2.1616 & 0.5706 & 0.5714 & 28 & 0.0379 \\
+hexagon & 2 & 5 & 3 & ellipse & 1.1076 & 0.3999 & 0.4000 & 20 & 0.0286 \\
+Reuleaux triangle & 2 & 5 & 2 & disc & 1.2559 & 0.6005 & 0.6000 & 20 & 0.2347 \\
+Reuleaux triangle & 2 & 7 & 4 & disc & 1.2559 & 0.4275 & 0.4285 & 28 & 0.0027 \\}
+\newcommand{\SymmN}{200{,}000}
+\newcommand{\SymmAccErr}{9.9\cdot10^{-4}}
+\newcommand{\SymmMaxSum}{1.4\cdot10^{-15}}
+\newcommand{\SymmTests}{216}
+\newcommand{\SymmMinP}{0.0003}
+\newcommand{\SymmChance}{0.07}
+\newcommand{\SymmHexRatio}{1.1076}
+\newcommand{\SecsSymm}{91}
+\newcommand{\SymmRerunN}{10^{6}}
+\newcommand{\SymmRerunRuns}{5}
+\newcommand{\SymmRerunMin}{0.002}
+\newcommand{\SymmRerunMax}{0.053}
+
+% ---- part pW
+\newcommand{\AsMmax}{20}
+\newcommand{\AsTiltCases}{2{,}138}
+\newcommand{\AsTiltTuples}{3}
+\newcommand{\AsFamilies}{400}
+\newcommand{\AsGrids}{297}
+\newcommand{\AsSimRows}{uniform on $[0,\frac13]\cup[\frac23,1]$ & $24$ & $24$ & $12$ & $12$ & $6\cdot10^{-15}$ & 0.59 \\
+uniform on $[0,\frac13]\cup[\frac23,1]$ & $24$ & $25$ & $12$ & $13$ & $6\cdot10^{-15}$ & 0.61 \\
+$\frac3{10}\,\U[0,1]+\frac12\,\delta_0+\frac15\,\delta_3$ & $40$ & $40$ & $12$ & $28$ & $8\cdot10^{-15}$ & 0.12 \\
+$\frac3{10}\,\U[0,1]+\frac12\,\delta_0+\frac15\,\delta_3$ & $40$ & $41$ & $12$ & $29$ & $8\cdot10^{-15}$ & 0.13 \\
+density $\frac12+x$ on $[0,1]$ & $8$ & $8$ & $4$ & $4$ & $9\cdot10^{-16}$ & 0.88 \\
+density $\frac12+x$ on $[0,1]$ & $8$ & $9$ & $4$ & $5$ & $2\cdot10^{-15}$ & 0.32 \\}
+\newcommand{\AsSumErr}{2\cdot10^{-14}}
+\newcommand{\AsTuples}{20{,}000}
+\newcommand{\AsTuplesSmall}{5{,}000}
+\newcommand{\AsOscExcess}{5\cdot10^{-16}}
+\newcommand{\AllPtests}{438}
+\newcommand{\AllPmin}{0.005}
+\newcommand{\AllPchance}{0.91}
+\newcommand{\AsNdRows}{$2$ & $46$ & $1.59\cdot10^{-1}$ & $579$ \\
+$3$ & $125$ & $1.36\cdot10^{-2}$ & $27{,}548$ \\
+$4$ & $256$ & $7.92\cdot10^{-4}$ & $1{,}293{,}629$ \\
+$5$ & $448$ & $3.48\cdot10^{-5}$ & $64{,}368{,}227$ \\
+$6$ & $706$ & $1.23\cdot10^{-6}$ & $3{,}446{,}954{,}880$ \\
+$7$ & $1{,}038$ & $3.62\cdot10^{-8}$ & $200{,}444{,}962{,}262$ \\
+$8$ & $1{,}449$ & $9.18\cdot10^{-10}$ & $12{,}629{,}509{,}971{,}035$ \\}
+\newcommand{\AsNtwo}{579}
+\newcommand{\AsNthree}{27{,}548}
+\newcommand{\AsHetRows}{constant & $24$ & $3$ & $8+4$ & $\frac{2}{3}$ & $0$ & $4{,}000$ & $4\cdot10^{-15}$ & 0.20 \\
+two values & $24$ & $3$ & $8+4$ & $\frac{2}{3}$ & $0.55$ & $4{,}000$ & $4\cdot10^{-15}$ & 0.20 \\
+uniform & $24$ & $3$ & $8+4$ & $\frac{2}{3}$ & $0.55$ & $4{,}000$ & $6\cdot10^{-15}$ & 0.04 \\
+constant & $33$ & $2$ & $5+6$ & $0$ & $0$ & $5{,}000$ & $8\cdot10^{-15}$ & 0.01 \\
+uniform & $54$ & $3$ & $13+14$ & $\frac{1}{2}$ & $0.2$ & $4{,}000$ & $2\cdot10^{-14}$ & 0.005 \\}
+\newcommand{\AsSelConf}{24}
+\newcommand{\AsSelChoices}{149{,}997}
+\newcommand{\AsSelSamples}{1{,}546}
+\newcommand{\AsHetSumErr}{2\cdot10^{-14}}
+\newcommand{\AsHetShift}{0.16}
+\newcommand{\AsHetTilt}{0.74}
+\newcommand{\AsPairCases}{2{,}246}
+\newcommand{\AsPairBoundary}{99}
+\newcommand{\AsThreeRows}{density with three steps & $8$ & $6$ & $3$ & $3$ & $9\cdot10^{-16}$ & 0.26 \\
+density with three steps & $8$ & $7$ & $3$ & $4$ & $9\cdot10^{-16}$ & 0.06 \\
+$\frac{17}{25}\,\delta_{47/100}+\frac8{25}\,\U[0,1]$ & $13$ & $10$ & $3$ & $7$ & $2\cdot10^{-15}$ & 0.46 \\
+uniform on $[0,\frac13]\cup[\frac23,1]$ & $24$ & $12$ & $6$ & $6$ & $3\cdot10^{-15}$ & 0.17 \\
+$\frac3{10}\,\U[0,1]+\frac12\,\delta_0+\frac15\,\delta_3$ & $40$ & $21$ & $6$ & $15$ & $6\cdot10^{-15}$ & 0.02 \\}
+\newcommand{\AsThreeSumErr}{6\cdot10^{-15}}
+\newcommand{\AsThreeTuples}{10{,}000}
+\newcommand{\AsThreeTuplesWin}{20{,}000}
+\newcommand{\AsThreeTuplesComp}{5{,}000}
+\newcommand{\PjMuE}{-0.343}
+\newcommand{\PjFibres}{5{,}040}
+\newcommand{\PjRatio}{0.275}
+\newcommand{\PjMassErr}{8\cdot10^{-5}}
+\newcommand{\NcExP}{\frac{2}{5}}
+\newcommand{\NcExC}{\frac{9}{20}}
+\newcommand{\NcExEta}{\frac{1}{50}}
+\newcommand{\NcExDmin}{0.6}
+\newcommand{\NcExDmax}{10.6}
+\newcommand{\NcRows}{$3$ & $\frac{2}{5}$ & $\frac{9}{20}$ & $\frac{1}{50}$ & $1.44$ & $1.4143$ & $0.0280$ & $5$ & $10.6$ \\
+$4$ & $\frac{3}{5}$ & $\frac{9}{20}$ & $\frac{1}{100}$ & $1.88$ & $1.7321$ & $0.1520$ & $8$ & $30.4$ \\
+$5$ & $\frac{7}{10}$ & $\frac{9}{20}$ & $\frac{1}{100}$ & $2.325$ & $2.0000$ & $0.1900$ & $10$ & $35.3$ \\
+$10$ & $\frac{9}{10}$ & $\frac{9}{20}$ & $\frac{1}{400}$ & $4.55$ & $3.0000$ & $0.4775$ & $30$ & $180.1$ \\
+$3$ & $\frac{1}{2}$ & $\frac{12}{25}$ & $\frac{1}{200}$ & $1.47$ & $1.4143$ & $0.2350$ & $6$ & $50.5$ \\
+$3$ & $\frac{9}{10}$ & $\frac{49}{100}$ & $\frac{1}{2000}$ & $1.473$ & $1.4143$ & $0.8497$ & $30$ & $900.1$ \\}
+\newcommand{\NcControl}{$-0.0037$}
+\newcommand{\NcLpA}{0.072}
+\newcommand{\NcLpB}{0.181}
+\newcommand{\NcLpF}{0.053}
+\newcommand{\NcCxMax}{40}
+\newcommand{\NcLeastList}{$4$, $5$, $7$ and $14$}
+\newcommand{\NcLeastCor}{$5$, $7$, $10$ and $20$}
+\newcommand{\NcLeastMiss}{$0.100$, $0.100$, $0.100$ and $0.025$}
+\newcommand{\NcAllnMiss}{$0.541$, $0.376$, $0.205$ and $0.028$}
+\newcommand{\NcAllnN}{10}
+\newcommand{\NcSumErr}{4\cdot10^{-15}}
+\newcommand{\NcCubics}{300}
+\newcommand{\NcCubicsBad}{15}
+\newcommand{\NcCubicsOk}{285}
+\newcommand{\NcBetaNoise}{2\cdot10^{-9}}
+\newcommand{\NcBetaMinExcess}{0.004}
+\newcommand{\NcBetaMax}{3.42}
+\newcommand{\NcTilt}{0.015}
+\newcommand{\LtNmaxBin}{12}
+\newcommand{\LtNmaxBox}{10}
+\newcommand{\LtCases}{4{,}104}
+\newcommand{\LtMixable}{2{,}916}
+\newcommand{\LtNonInt}{2{,}376}
+\newcommand{\LtMaxVec}{12}
+\newcommand{\LtPairs}{1{,}665}
+\newcommand{\LtThree}{6{,}457}
+\newcommand{\LtThreeGen}{11{,}592}
+\newcommand{\LtNecFourAdm}{950}
+\newcommand{\LtNecFourNon}{136}
+\newcommand{\LtNecFourCx}{42}
+\newcommand{\LtNecFiveAdm}{326}
+\newcommand{\LtNecFiveNon}{32}
+\newcommand{\LtNecFiveCx}{6}
+\newcommand{\LtNecSane}{1{,}108}
+\newcommand{\LtFourBound}{30}
+\newcommand{\LtAlloc}{60}
+\newcommand{\LtOps}{37}
+\newcommand{\SecsW}{226}

@@ -576,6 +576,11 @@ No statement treated was found false.
 
 `Mixes/Defs.lean` (the definitions), then the files named above.
 
+# Programs
+
+The folder `programs/` contains the Python programs behind the numbers, tables and figures of the
+paper, with their stored output; see `programs/README.md`.
+
 # Checking the proofs
 
 Install Lean with [elan](https://github.com/leanprover/elan), then:

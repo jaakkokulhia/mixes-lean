@@ -1,0 +1,669 @@
+{
+ "partA1": {
+  "cases": 400,
+  "tight": 153,
+  "with_zero": 52,
+  "equal": 52,
+  "beta_two": 95,
+  "segments": 84252,
+  "n_max": 8,
+  "leaf_kinds": {
+   "base": 11440,
+   "split": 5111,
+   "U": 373
+  },
+  "seconds": 6.0
+ },
+ "partA2": {
+  "cases": 300,
+  "min_slack": 0.0,
+  "equality_cases": 49,
+  "seconds": 0.13
+ },
+ "partA3": {
+  "cases": 300,
+  "min_slack": 0.0,
+  "joins": 13,
+  "seconds": 0.04
+ },
+ "partA4": {
+  "rows": {
+   "double frusta k=2": {
+    "cases": 40,
+    "min_P": 0.0,
+    "min_F": 0.0,
+    "below_quarter_fails": true
+   },
+   "chamfered k=2": {
+    "cases": 40,
+    "min_P": 0.0,
+    "min_F": 0.0
+   },
+   "double frusta k=3": {
+    "cases": 40,
+    "min_P": 0.0,
+    "min_F": 0.0,
+    "below_quarter_fails": null
+   },
+   "chamfered k=3": {
+    "cases": 59,
+    "min_P": 0.0002777777777777778,
+    "min_F": 0.0
+   },
+   "double frusta k=4": {
+    "cases": 40,
+    "min_P": 0.041666666666666664,
+    "min_F": 0.0,
+    "below_quarter_fails": null
+   },
+   "chamfered k=4": {
+    "cases": 59,
+    "min_P": 0.04378800154320988,
+    "min_F": 0.0
+   },
+   "double frusta k=5": {
+    "cases": 40,
+    "min_P": 0.03125,
+    "min_F": 0.0,
+    "below_quarter_fails": null
+   },
+   "chamfered k=5": {
+    "cases": 59,
+    "min_P": 0.03338603636188272,
+    "min_F": 0.0
+   },
+   "double frusta k=6": {
+    "cases": 40,
+    "min_P": 0.01875,
+    "min_F": 0.0,
+    "below_quarter_fails": null
+   },
+   "chamfered k=6": {
+    "cases": 59,
+    "min_P": 0.02036545916120113,
+    "min_F": 0.0
+   }
+  },
+  "seconds": 0.02
+ },
+ "partB": {
+  "polygons": [
+   {
+    "n_sides": 6,
+    "ratio": 0.4999999999999999,
+    "ok": true,
+    "h_lo": 0.6965,
+    "h_hi": 0.9995,
+    "h": 0.7725,
+    "P": 0.2627232083334986,
+    "F": 0.26269437248127936
+   },
+   {
+    "n_sides": 8,
+    "ratio": 0.41421356237309515,
+    "ok": true,
+    "h_lo": 0.674,
+    "h_hi": 0.828,
+    "h": 0.707,
+    "P": 0.12098498028982396,
+    "F": 0.12142712474619022
+   },
+   {
+    "n_sides": 10,
+    "ratio": 0.30901699437494745,
+    "ok": true,
+    "h_lo": 0.6545,
+    "h_hi": 0.7635,
+    "h": 0.6885,
+    "P": 0.12982897640778157,
+    "F": 0.12833262183086636
+   },
+   {
+    "n_sides": 12,
+    "ratio": 0.2679491924311227,
+    "ok": true,
+    "h_lo": 0.6565,
+    "h_hi": 0.732,
+    "h": 0.671,
+    "P": 0.07150760928068278,
+    "F": 0.07049540036827062
+   },
+   {
+    "n_sides": 14,
+    "ratio": 0.22252093395631445,
+    "ok": true,
+    "h_lo": 0.657,
+    "h_hi": 0.692,
+    "h": 0.6635,
+    "P": 0.030161288684160792,
+    "F": 0.029254954416339185
+   },
+   {
+    "n_sides": 16,
+    "ratio": 0.1989123673796581,
+    "ok": true,
+    "h_lo": 0.654,
+    "h_hi": 0.668,
+    "h": 0.6575,
+    "P": 0.016147615235130308,
+    "F": 0.01510187457314427
+   },
+   {
+    "n_sides": 18,
+    "ratio": 0.17364817766693041,
+    "ok": true,
+    "h_lo": 0.65,
+    "h_hi": 0.6525,
+    "h": 0.6505,
+    "P": 0.004784693740804369,
+    "F": 0.002544549682387709
+   },
+   {
+    "n_sides": 20,
+    "ratio": 0.15838444032453633,
+    "ok": false
+   },
+   {
+    "n_sides": 22,
+    "ratio": 0.14231483827328512,
+    "ok": false
+   },
+   {
+    "n_sides": 24,
+    "ratio": 0.131652497587396,
+    "ok": false
+   },
+   {
+    "n_sides": 26,
+    "ratio": 0.120536680255323,
+    "ok": false
+   },
+   {
+    "n_sides": 28,
+    "ratio": 0.11267293990011111,
+    "ok": false
+   },
+   {
+    "n_sides": 30,
+    "ratio": 0.10452846326765346,
+    "ok": false
+   },
+   {
+    "n_sides": 32,
+    "ratio": 0.09849140335716441,
+    "ok": false
+   },
+   {
+    "n_sides": 34,
+    "ratio": 0.09226835946330202,
+    "ok": false
+   },
+   {
+    "n_sides": 36,
+    "ratio": 0.08748866352592397,
+    "ok": false
+   },
+   {
+    "n_sides": 38,
+    "ratio": 0.0825793454723324,
+    "ok": false
+   },
+   {
+    "n_sides": 40,
+    "ratio": 0.07870170682461851,
+    "ok": false
+   },
+   {
+    "n_sides": 42,
+    "ratio": 0.07473009358642439,
+    "ok": false
+   },
+   {
+    "n_sides": 44,
+    "ratio": 0.07152141155879707,
+    "ok": false
+   },
+   {
+    "n_sides": 46,
+    "ratio": 0.068242413364671,
+    "ok": false
+   },
+   {
+    "n_sides": 48,
+    "ratio": 0.06554346281523822,
+    "ok": false
+   },
+   {
+    "n_sides": 50,
+    "ratio": 0.06279051952931353,
+    "ok": false
+   },
+   {
+    "n_sides": 52,
+    "ratio": 0.06048885606026157,
+    "ok": false
+   },
+   {
+    "n_sides": 54,
+    "ratio": 0.0581448289104759,
+    "ok": false
+   },
+   {
+    "n_sides": 56,
+    "ratio": 0.05615879541074955,
+    "ok": false
+   },
+   {
+    "n_sides": 58,
+    "ratio": 0.05413890858541761,
+    "ok": false
+   },
+   {
+    "n_sides": 60,
+    "ratio": 0.05240777928304134,
+    "ok": false
+   }
+  ],
+  "levels": [
+   {
+    "body": "regular octagon",
+    "k": 2,
+    "h": 0.7071067811865475,
+    "P_slack": 0.12132034355964239,
+    "F_slack": 0.12132034355964283,
+    "alpha0": 0.4393398282201777,
+    "min_alpha_over_x": 0.6213203435596412,
+    "mass_err": 2.3519589498199878e-07,
+    "identity_err": 4.9376278488111325e-06
+   },
+   {
+    "body": "regular decagon",
+    "k": 2,
+    "h": 0.7,
+    "P_slack": 0.16454077878495899,
+    "F_slack": 0.10876765323876947,
+    "alpha0": 0.607685335272556,
+    "min_alpha_over_x": 0.8681219075322228,
+    "mass_err": 2.506748677522097e-07,
+    "identity_err": 6.696483193291414e-06
+   },
+   {
+    "body": "regular 14-gon",
+    "k": 2,
+    "h": 0.6635,
+    "P_slack": 0.030161288684160792,
+    "F_slack": 0.029254954416339185,
+    "alpha0": 0.11326734850548581,
+    "min_alpha_over_x": 0.17071190430367117,
+    "mass_err": 2.411401422985904e-07,
+    "identity_err": 5.47503676662231e-06
+   },
+   {
+    "body": "regular 16-gon",
+    "k": 2,
+    "h": 0.6575,
+    "P_slack": 0.016147615235130308,
+    "F_slack": 0.01510187457314427,
+    "alpha0": 0.0608846578314175,
+    "min_alpha_over_x": 0.09260024004778326,
+    "mass_err": 2.1018579476894672e-07,
+    "identity_err": 4.5015906811052275e-06
+   },
+   {
+    "body": "hexagon rho=0.3",
+    "k": 2,
+    "h": 0.7142857142857143,
+    "P_slack": 0.09999999999999998,
+    "F_slack": 0.0,
+    "alpha0": 0.46153846153846123,
+    "min_alpha_over_x": 0.6461538461538457,
+    "mass_err": 3.3115284125972977e-07,
+    "identity_err": 6.956115503164995e-06
+   },
+   {
+    "body": "chamfered square e=0.6",
+    "k": 2,
+    "h": 0.7,
+    "P_slack": 0.09999999999999987,
+    "F_slack": 0.10000000000000009,
+    "alpha0": 0.3658536585365848,
+    "min_alpha_over_x": 0.5226480836236926,
+    "mass_err": 2.3695497752829198e-07,
+    "identity_err": 4.9861953157481764e-06
+   },
+   {
+    "body": "stadium h'=0.75",
+    "k": 2,
+    "h": 0.75,
+    "P_slack": 0.0958489452318147,
+    "F_slack": 0.0,
+    "alpha0": 1.2153937769647662,
+    "min_alpha_over_x": 0.5400705386912688,
+    "mass_err": 1.2234596002969056e-07,
+    "identity_err": 8.220720088658595e-06
+   },
+   {
+    "body": "elongated octahedron h'=0.75",
+    "k": 3,
+    "h": 0.75,
+    "P_slack": 0.7562791351346849,
+    "F_slack": 0.0,
+    "alpha0": 2.7226048864848655,
+    "min_alpha_over_x": 0.9824166695392053,
+    "mass_err": 1.2814283634199342e-08,
+    "identity_err": 9.571490082738165e-06
+   },
+   {
+    "body": "double frustum k=3 rho=0.1",
+    "k": 3,
+    "h": 0.5555555555555556,
+    "P_slack": 0.010000000000000092,
+    "F_slack": -1.1102230246251565e-16,
+    "alpha0": 0.08108108108108203,
+    "min_alpha_over_x": 0.14594594594594765,
+    "mass_err": 3.3958689216184723e-07,
+    "identity_err": 9.259779484516173e-06
+   }
+  ],
+  "constants": {
+   "plateau_bound": 0.7176332991967919,
+   "dec_r0": 1.0514622242382672,
+   "dec_rsum": 1.0627539686071648,
+   "dec_r0_formula": 1.0514622242382672,
+   "pentagon_sbar": 0.4472135959619906,
+   "pentagon_sbar_formula": 0.4472135954999579,
+   "pentagon_ratio": 5.854101971139453,
+   "pentagon_formula": 5.854101966249685
+  },
+  "hstep": 0.0005,
+  "seconds": 7.6
+ },
+ "partC": {
+  "rows": [
+   {
+    "kind": "scaled copies",
+    "body": "(p+1)(1-x)^p, p=2",
+    "n": 4,
+    "samples": 20000,
+    "beta_star": 3.999999875000008,
+    "ratio": 4.0,
+    "p_bound": 2,
+    "max_sum_dev": 2.220446049250313e-16,
+    "tests": 4,
+    "min_p": 0.48699821123064235,
+    "kinds": {
+     "base": 20000
+    }
+   },
+   {
+    "kind": "scaled copies",
+    "body": "(p+1)(1-x)^p, p=3",
+    "n": 6,
+    "samples": 20000,
+    "beta_star": 4.999999791666674,
+    "ratio": 5.0,
+    "p_bound": 3,
+    "max_sum_dev": 3.1086244689504383e-15,
+    "tests": 6,
+    "min_p": 0.019215975104001567,
+    "kinds": {
+     "split": 15576,
+     "base": 4424
+    }
+   },
+   {
+    "kind": "scaled copies",
+    "body": "polygon Q",
+    "n": 4,
+    "samples": 20000,
+    "beta_star": 3.000000000000178,
+    "ratio": 3.0,
+    "p_bound": 1,
+    "max_sum_dev": 9.325873406851315e-15,
+    "tests": 4,
+    "min_p": 0.1660900472625081,
+    "kinds": {
+     "split": 3844,
+     "base": 16021,
+     "U": 135
+    }
+   },
+   {
+    "kind": "scaled copies",
+    "body": "projection of a tetrahedron",
+    "n": 5,
+    "samples": 20000,
+    "beta_star": 2.998304371378434,
+    "ratio": 4.0,
+    "p_bound": 2,
+    "max_sum_dev": 6.661338147750939e-16,
+    "tests": 5,
+    "min_p": 0.2841096800343422,
+    "kinds": {
+     "split": 15150,
+     "base": 4850
+    }
+   },
+   {
+    "kind": "scaled copies",
+    "body": "Beta(2,4)",
+    "n": 5,
+    "samples": 20000,
+    "beta_star": 3.000000000000123,
+    "ratio": 3.4,
+    "p_bound": 4,
+    "max_sum_dev": 1.3322676295501878e-15,
+    "tests": 5,
+    "min_p": 0.15179080357148356,
+    "kinds": {
+     "split": 10035,
+     "base": 9965
+    }
+   },
+   {
+    "kind": "product sections",
+    "body": "hip roof, beta = 1/2",
+    "d": 3,
+    "n": 4,
+    "samples": 20000,
+    "beta_star": 3.3333333055555565,
+    "ratio": 4.0,
+    "max_sum_dev": 7.771561172376096e-16,
+    "fibre_slack": 0.8000114513502155,
+    "outside": 0.0,
+    "tests": 12,
+    "min_p": 0.012600218057830744
+   },
+   {
+    "kind": "product sections",
+    "body": "hip roof, beta = 1/2",
+    "d": 3,
+    "n": 5,
+    "samples": 20000,
+    "beta_star": 3.3333333055555565,
+    "ratio": 4.0,
+    "max_sum_dev": 8.326672684688674e-16,
+    "fibre_slack": 0.8000011871706376,
+    "outside": 0.0,
+    "tests": 15,
+    "min_p": 0.01563784731448738
+   },
+   {
+    "kind": "product sections",
+    "body": "frustum, ratios 1/4 and 3/5",
+    "d": 3,
+    "n": 4,
+    "samples": 20000,
+    "beta_star": 3.2010641174174927,
+    "ratio": 4.0,
+    "max_sum_dev": 7.216449660063518e-16,
+    "fibre_slack": 0.9047715212843959,
+    "outside": 0.0,
+    "tests": 12,
+    "min_p": 0.06119746632288581
+   },
+   {
+    "kind": "product sections",
+    "body": "join of a segment and a disc",
+    "d": 4,
+    "n": 5,
+    "samples": 20000,
+    "beta_star": 3.0000000003753287,
+    "ratio": 5.0,
+    "max_sum_dev": 3.9968028886505635e-15,
+    "fibre_slack": 0.02238995846289904,
+    "outside": 0.0,
+    "tests": 20,
+    "min_p": 0.286424733269371
+   },
+   {
+    "kind": "product sections",
+    "body": "half-ball",
+    "d": 3,
+    "n": 5,
+    "samples": 20000,
+    "beta_star": 3.000000005496784,
+    "ratio": 4.0,
+    "max_sum_dev": 1.1102230246251565e-14,
+    "fibre_slack": 0.7259458360980549,
+    "outside": 0.0,
+    "tests": 15,
+    "min_p": 0.01884374462654391
+   },
+   {
+    "kind": "product sections",
+    "body": "regular pentagon",
+    "d": 2,
+    "n": 6,
+    "samples": 20000,
+    "beta_star": 3.000000000000425,
+    "ratio": 6.0,
+    "max_sum_dev": 1.199040866595169e-14,
+    "fibre_slack": 0.9904316896255896,
+    "outside": 0.0,
+    "tests": 12,
+    "min_p": 0.08176186021471288
+   },
+   {
+    "kind": "product sections",
+    "body": "regular pentagon",
+    "d": 2,
+    "n": 7,
+    "samples": 20000,
+    "beta_star": 3.000000000000425,
+    "ratio": 7.0,
+    "max_sum_dev": 2.5757174171303632e-14,
+    "fibre_slack": 1.797167493759519,
+    "outside": 0.0,
+    "tests": 14,
+    "min_p": 0.014440853762113485
+   },
+   {
+    "kind": "flat ends",
+    "body": "regular octagon",
+    "k": 2,
+    "h": 0.7071067811865475,
+    "n": 3,
+    "samples": 20000,
+    "max_sum_dev": 3.3306690738754696e-16,
+    "fibre_slack": 0.12698215610884134,
+    "two_central_max": 0.7071002989062383,
+    "outside": -6.572962291562234e-06,
+    "tests": 6,
+    "min_p": 0.12205055064796388
+   },
+   {
+    "kind": "flat ends",
+    "body": "regular octagon",
+    "k": 2,
+    "h": 0.7071067811865475,
+    "n": 5,
+    "samples": 20000,
+    "max_sum_dev": 4.440892098500626e-16,
+    "fibre_slack": 0.12342347992914826,
+    "two_central_max": 0.7071042597849636,
+    "outside": -2.150768173891926e-06,
+    "tests": 10,
+    "min_p": 0.07873370026199566
+   },
+   {
+    "kind": "flat ends",
+    "body": "regular decagon",
+    "k": 2,
+    "h": 0.7,
+    "n": 3,
+    "samples": 20000,
+    "max_sum_dev": 4.440892098500626e-16,
+    "fibre_slack": 0.11802926629579913,
+    "two_central_max": 0.6999988190220419,
+    "outside": -1.5026308731069804e-05,
+    "tests": 6,
+    "min_p": 0.18797247364644387
+   },
+   {
+    "kind": "flat ends",
+    "body": "hexagon rho=0.3",
+    "k": 2,
+    "h": 0.7142857142857143,
+    "n": 3,
+    "samples": 20000,
+    "max_sum_dev": 4.440892098500626e-16,
+    "fibre_slack": 3.854267157255009e-05,
+    "two_central_max": 0.7142581838060196,
+    "outside": -1.5201215029736481e-05,
+    "tests": 6,
+    "min_p": 0.0005052960478210728
+   },
+   {
+    "kind": "flat ends",
+    "body": "stadium h'=0.75",
+    "k": 2,
+    "h": 0.75,
+    "n": 3,
+    "samples": 20000,
+    "max_sum_dev": 1.1102230246251565e-16,
+    "fibre_slack": 0.014514466954998917,
+    "two_central_max": 0.7499568415822639,
+    "outside": -5.45521748607225e-07,
+    "tests": 6,
+    "min_p": 0.2819894435958259
+   },
+   {
+    "kind": "flat ends",
+    "body": "elongated octahedron h'=0.75",
+    "k": 3,
+    "h": 0.75,
+    "n": 3,
+    "samples": 20000,
+    "max_sum_dev": 1.1102230246251565e-16,
+    "fibre_slack": 0.014513633787053504,
+    "two_central_max": 0.7499961412398173,
+    "outside": -1.4159840174943206e-05,
+    "tests": 9,
+    "min_p": 0.019814297714651482
+   }
+  ],
+  "tests": 167,
+  "min_p": 0.0005052960478210728,
+  "chance_min_p": 0.08094174284116473,
+  "follow": {
+   "body": "hexagon rho=0.3",
+   "n": 3,
+   "samples": 80000,
+   "min_p": [
+    0.07149928975775977,
+    0.05104013121783291,
+    0.08132010838809323,
+    0.07067418554425053
+   ]
+  },
+  "seconds": 20.6
+ },
+ "seconds": 34.3,
+ "settings": {
+  "NA": 400,
+  "NLEM": 300,
+  "MC": 20000,
+  "SEED": 2026
+ }
+}

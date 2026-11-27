@@ -1,0 +1,110 @@
+{
+ "part1": {
+  "cases_checked": 28080,
+  "boundary_checked": 241,
+  "case_counts": {
+   "D": 1900,
+   "A": 4736,
+   "RD": 1900,
+   "RA": 4295,
+   "B": 5556,
+   "C": 2208,
+   "RB": 5370,
+   "RC": 2115
+  },
+  "max_tuples": 3,
+  "nmax": 20,
+  "grid": 20,
+  "seconds": 11.8
+ },
+ "part2": {
+  "SF_sums": 2000,
+  "D_sums": 2000,
+  "mass": 2000,
+  "mean": 2000,
+  "jump": 2000,
+  "reflection": 993,
+  "thresholds": 2000,
+  "pair": 2000,
+  "split": 1995
+ },
+ "part3": {
+  "step_densities": 400,
+  "pairs": 1535,
+  "max_steps": 6,
+  "seconds": 0.7
+ },
+ "part4": {
+  "tests": [
+   {
+    "name": "power p=0.5",
+    "n": 3,
+    "B": 2.5,
+    "samples": 50000,
+    "max_sum_error": 8.881784197001252e-16,
+    "ks_coordinate": 0.004845020349319551,
+    "ks_pvalue": 0.19106347884075847,
+    "ks_threshold": 0.0060731606268894294
+   },
+   {
+    "name": "power p=1.0",
+    "n": 3,
+    "B": 3.0,
+    "samples": 50000,
+    "max_sum_error": 8.881784197001252e-16,
+    "ks_coordinate": 0.0036925601511558215,
+    "ks_pvalue": 0.5029791048728256,
+    "ks_threshold": 0.0060731606268894294
+   },
+   {
+    "name": "power p=3.0",
+    "n": 6,
+    "B": 5.0,
+    "samples": 50000,
+    "max_sum_error": 2.6645352591003757e-15,
+    "ks_coordinate": 0.004474331296779488,
+    "ks_pvalue": 0.26947383117645674,
+    "ks_threshold": 0.0060731606268894294
+   },
+   {
+    "name": "inverse square root",
+    "n": 3,
+    "B": 3.0,
+    "samples": 50000,
+    "max_sum_error": 8.881784197001252e-16,
+    "ks_coordinate": 0.0031687641312693193,
+    "ks_pvalue": 0.6969467835827265,
+    "ks_threshold": 0.0060731606268894294
+   },
+   {
+    "name": "truncated exponential",
+    "n": 4,
+    "B": 3.5,
+    "samples": 50000,
+    "max_sum_error": 8.881784197001252e-16,
+    "ks_coordinate": 0.003979831076071583,
+    "ks_pvalue": 0.40680164889206527,
+    "ks_threshold": 0.0060731606268894294
+   },
+   {
+    "name": "step density",
+    "n": 5,
+    "B": 4.5,
+    "samples": 50000,
+    "max_sum_error": 1.7763568394002505e-15,
+    "ks_coordinate": 0.0038680366090089457,
+    "ks_pvalue": 0.44294126607839707,
+    "ks_threshold": 0.0060731606268894294
+   }
+  ],
+  "seconds": 47.8
+ },
+ "seconds": 60.6,
+ "env": {
+  "NMAX": 20,
+  "GRID": 20,
+  "NSTEP": 400,
+  "MC": 50000,
+  "SEED": 2026
+ }
+}

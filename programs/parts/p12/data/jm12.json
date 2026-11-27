@@ -1,0 +1,256 @@
+{
+ "part1": {
+  "checks": 41184,
+  "points": 20592,
+  "cells": 310760,
+  "cases": {
+   "II0": 1584,
+   "II0'": 1584,
+   "IIIb": 2294,
+   "IIIb'": 1658,
+   "IIIa": 4042,
+   "IIIa'": 3094,
+   "II": 8712,
+   "II'": 8712,
+   "I": 5544,
+   "I'": 3960
+  },
+  "boundary": {
+   "y1=0": 1584,
+   "a=0": 1716,
+   "b=s": 1716,
+   "b=c2": 192,
+   "a=y1": 792,
+   "a=y2": 792,
+   "c1=c2": 1584
+  },
+  "max_segments": 5,
+  "seconds": 10.5
+ },
+ "part2": {
+  "identities": 2000,
+  "uniform_tuples": 2000,
+  "uniform_tight": 377,
+  "split": 2000,
+  "split_kinds": {
+   "split/I/full,full,part": 150,
+   "split/II/full,low,part": 431,
+   "split/IIIa/full,full,part": 128,
+   "split/IIIa/full,low,part": 211,
+   "split/IIIa'/full,full,part": 101,
+   "split/II'/full,full,part": 197,
+   "split/IIIb'/full,full,part": 33,
+   "split/IIIb/full,low,part": 57,
+   "split/IIIb'/full,low,part": 34,
+   "split/II/full,full,part": 316,
+   "split/IIIb/full,full,part": 47,
+   "split/I'/full,full,part": 133,
+   "split/IIIa'/full,low,part": 126,
+   "split/I/full,low,part": 23,
+   "split/II'/full,low,part": 13
+  },
+  "split_a0": 427,
+  "split_bs": 196,
+  "leaves": 2000,
+  "leaf_kinds": {
+   "base": 1246,
+   "split": 754
+  },
+  "leaf_a0": 256,
+  "leaf_bs": 213,
+  "leaf_zero": 117,
+  "max_segments_leaf": 8,
+  "uni_k": [
+   3,
+   9
+  ],
+  "leaf_n": [
+   3,
+   8
+  ],
+  "seconds": 5.3
+ },
+ "part3": {
+  "laws": 600,
+  "tried": 903,
+  "tight": 200,
+  "with_zero_atom": 392,
+  "tuples": 1892,
+  "segments": 87525,
+  "max_segments": 4948,
+  "n_max": 7,
+  "leaf_kinds": {
+   "base": 13041,
+   "split": 3894,
+   "U": 2
+  },
+  "blotto": 300,
+  "blotto_segments": 77887,
+  "blotto_n_max": 10,
+  "blotto_leaf_kinds": {
+   "split": 6568,
+   "base": 5105,
+   "U": 3
+  },
+  "max_leaf_segments": 8,
+  "step_n": [
+   3,
+   7
+  ],
+  "step_kmax": 4,
+  "blotto_n": [
+   3,
+   10
+  ],
+  "seconds": 22.8
+ },
+ "part4": {
+  "tests": [
+   {
+    "n": 3,
+    "s": 2.918250257313833,
+    "Bmax": 2.2,
+    "samples": 50000,
+    "laws": [
+     "uniform on [0,2]",
+     "power 0.25 on [0,2.2]",
+     "exponential 0.3 on [0,2.1]"
+    ],
+    "max_sum_error": 8.881784197001252e-16,
+    "min_coord": 4.021272995785585e-05,
+    "ks": [
+     0.0025486255355285925,
+     0.0032059683718618226,
+     0.0032542822130867677
+    ],
+    "ks_max": 0.0032542822130867677,
+    "p_min": 0.6647988210097252,
+    "kinds": {
+     "base": 50000
+    },
+    "ks_threshold": 0.0060731606268894294
+   },
+   {
+    "n": 3,
+    "s": 3.0,
+    "Bmax": 3.0,
+    "samples": 50000,
+    "laws": [
+     "uniform on [0,2]",
+     "uniform on [0,2]",
+     "power 1 on [0,3]"
+    ],
+    "max_sum_error": 8.881784197001252e-16,
+    "min_coord": 2.337912869743164e-06,
+    "ks": [
+     0.003808445111067593,
+     0.003793422001152791,
+     0.0027815002636061292
+    ],
+    "ks_max": 0.003808445111067593,
+    "p_min": 0.4629005076411368,
+    "kinds": {
+     "base": 50000
+    },
+    "ks_threshold": 0.0060731606268894294
+   },
+   {
+    "n": 4,
+    "s": 3.736929021761273,
+    "Bmax": 3.2,
+    "samples": 50000,
+    "laws": [
+     "power 1 on [0,3]",
+     "inverse square root on (0,3]",
+     "exponential 0.6 on [0,3.2]",
+     "step 0.5@0.4, 0.3@1.6, 0.2@2.8"
+    ],
+    "max_sum_error": 4.884981308350689e-15,
+    "min_coord": 4.760861420883916e-09,
+    "ks": [
+     0.003147323201338814,
+     0.003623872952039142,
+     0.0033667137619527443,
+     0.003180719219974315
+    ],
+    "ks_max": 0.003623872952039142,
+    "p_min": 0.5274424760751878,
+    "kinds": {
+     "base": 43201,
+     "split": 6799
+    },
+    "ks_threshold": 0.0060731606268894294
+   },
+   {
+    "n": 5,
+    "s": 3.27643627541537,
+    "Bmax": 3.0,
+    "samples": 50000,
+    "laws": [
+     "power 3 on [0,3]",
+     "power 0.5 on [0,1.5]",
+     "uniform on [0,1]",
+     "inverse square root on (0,2.4]",
+     "exponential 1 on [0,2.5]"
+    ],
+    "max_sum_error": 1.7763568394002505e-15,
+    "min_coord": 3.5490434784109056e-11,
+    "ks": [
+     0.0026084965948793837,
+     0.002794556603768872,
+     0.003309067736590454,
+     0.0029413674771554543,
+     0.004418995679601911
+    ],
+    "ks_max": 0.004418995679601911,
+    "p_min": 0.2829556121042173,
+    "kinds": {
+     "base": 38850,
+     "split": 11150
+    },
+    "ks_threshold": 0.0060731606268894294
+   },
+   {
+    "n": 6,
+    "s": 3.084475709475709,
+    "Bmax": 3.0,
+    "samples": 50000,
+    "laws": [
+     "power 0.2 on [0,1.2]",
+     "power 0.7 on [0,1.6]",
+     "power 1.5 on [0,2]",
+     "power 2.5 on [0,2.4]",
+     "power 4 on [0,2.8]",
+     "power 6 on [0,3]"
+    ],
+    "max_sum_error": 2.0872192862952943e-14,
+    "min_coord": 3.974037947466688e-06,
+    "ks": [
+     0.002805703292880657,
+     0.005068550470698763,
+     0.0028610380845288663,
+     0.005565921509542937,
+     0.004434743114217432,
+     0.003353314664533924
+    ],
+    "ks_max": 0.005565921509542937,
+    "p_min": 0.09027515115771376,
+    "kinds": {
+     "split": 17655,
+     "base": 32345
+    },
+    "ks_threshold": 0.0060731606268894294
+   }
+  ],
+  "seconds": 23.9
+ },
+ "seconds": 62.4,
+ "env": {
+  "GRID": 12,
+  "NRAND": 2000,
+  "NSTEP": 600,
+  "NBLOTTO": 300,
+  "MC": 50000,
+  "SEED": 2026
+ }
+}

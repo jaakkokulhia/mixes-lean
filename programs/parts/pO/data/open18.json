@@ -1,0 +1,811 @@
+{
+ "partA": {
+  "rows": [
+   {
+    "label": "$(1-x)^{1}$",
+    "key": "linear",
+    "p": 1.0,
+    "beta": 3.000000000000101,
+    "ratio": 1.0000000000000335,
+    "mu": 0.33333333333333337,
+    "beta0": 2.9999999999999996
+   },
+   {
+    "label": "$(1-x)^{1.5}$",
+    "key": "linear",
+    "p": 1.5,
+    "beta": 3.4999999094050955,
+    "ratio": 0.9999999741157416,
+    "mu": 0.2857142931097883,
+    "beta0": 3.4999999094050955
+   },
+   {
+    "label": "$(1-x)^{2}$",
+    "key": "linear",
+    "p": 2.0,
+    "beta": 3.999999875000007,
+    "ratio": 0.9999999687500017,
+    "mu": 0.2500000078124998,
+    "beta0": 3.999999875000007
+   },
+   {
+    "label": "$(1-x)^{3}$",
+    "key": "linear",
+    "p": 3.0,
+    "beta": 4.999999791666667,
+    "ratio": 0.9999999583333334,
+    "mu": 0.20000000833333365,
+    "beta0": 4.999999791666667
+   },
+   {
+    "label": "$(1-x)^{5}$",
+    "key": "linear",
+    "p": 5.0,
+    "beta": 6.9999995624998705,
+    "ratio": 0.9999999374999815,
+    "mu": 0.14285715178571748,
+    "beta0": 6.9999995624998705
+   },
+   {
+    "label": "$(1-x)^{8}$",
+    "key": "linear",
+    "p": 8.0,
+    "beta": 9.999999062501397,
+    "ratio": 0.9999999062501397,
+    "mu": 0.1000000093749869,
+    "beta0": 9.999999062501397
+   },
+   {
+    "label": "tent, mode $\\frac14$, $p=2$",
+    "key": "tent",
+    "p": 2.0,
+    "beta": 3.2460526014562316,
+    "ratio": 0.8115131503640579,
+    "mu": 0.3749999791666285,
+    "beta0": 2.6666668148150943
+   },
+   {
+    "label": "tent, mode $\\frac14$, $p=3$",
+    "key": "tent",
+    "p": 3.0,
+    "beta": 3.4242792006544867,
+    "ratio": 0.6848558401308973,
+    "mu": 0.34999996666667027,
+    "beta0": 2.857143129251697
+   },
+   {
+    "label": "tent, mode $\\frac14$, $p=4$",
+    "key": "tent",
+    "p": 4.0,
+    "beta": 3.5589463193450794,
+    "ratio": 0.5931577198908465,
+    "mu": 0.33333328703704346,
+    "beta0": 3.000000416666667
+   },
+   {
+    "label": "$(1-x^2)^2$",
+    "key": "quartic",
+    "p": 2.0,
+    "beta": 3.1999999000000154,
+    "ratio": 0.7999999750000039,
+    "mu": 0.3125000097656238,
+    "beta0": 3.1999999000000154
+   },
+   {
+    "label": "$\\sin(\\pi x/2)^3$",
+    "key": "sine",
+    "p": 3.0,
+    "beta": 3.8868620812714614,
+    "ratio": 0.7773724162542923,
+    "mu": 0.7427230554903347,
+    "beta0": 3.8868620812714614
+   },
+   {
+    "label": "$(x(1-x))^{1}$",
+    "key": "symmetric",
+    "p": 2.0,
+    "beta": 2.0000000209620388,
+    "ratio": 0.5000000052405097,
+    "mu": 0.5,
+    "beta0": 2.0
+   },
+   {
+    "label": "$(x(1-x))^{2}$",
+    "key": "symmetric",
+    "p": 4.0,
+    "beta": 2.000000300352984,
+    "ratio": 0.33333338339216395,
+    "mu": 0.5,
+    "beta0": 2.0
+   },
+   {
+    "label": "projection of the tetrahedron, direction 1",
+    "key": "tetra",
+    "p": 2.0,
+    "beta": 3.0000000000001377,
+    "ratio": 0.7500000000000344,
+    "mu": 0.6009211411777606,
+    "beta0": 2.505770420791514
+   },
+   {
+    "label": "projection of the tetrahedron, direction 2",
+    "key": "tetra",
+    "p": 2.0,
+    "beta": 2.9999999999994595,
+    "ratio": 0.7499999999998649,
+    "mu": 0.4310605239538374,
+    "beta0": 2.31985984433845
+   },
+   {
+    "label": "projection of the tetrahedron, direction 3",
+    "key": "tetra",
+    "p": 2.0,
+    "beta": 3.0000000000002327,
+    "ratio": 0.7500000000000582,
+    "mu": 0.3946278043656487,
+    "beta0": 2.5340333066684626
+   },
+   {
+    "label": "projection of the cube, direction 1",
+    "key": "cube",
+    "p": 2.0,
+    "beta": 2.0000000237851925,
+    "ratio": 0.5000000059462981,
+    "mu": 0.5,
+    "beta0": 2.0
+   },
+   {
+    "label": "projection of the cube, direction 2",
+    "key": "cube",
+    "p": 2.0,
+    "beta": 2.0000011216087796,
+    "ratio": 0.5000002804021949,
+    "mu": 0.5,
+    "beta0": 2.0
+   },
+   {
+    "label": "projection of the cube, direction 3",
+    "key": "cube",
+    "p": 2.0,
+    "beta": 2.0000000262011857,
+    "ratio": 0.5000000065502964,
+    "mu": 0.5,
+    "beta0": 2.0
+   },
+   {
+    "label": "projection of the octahedron, direction 1",
+    "key": "octa",
+    "p": 2.0,
+    "beta": 2.0000000041982275,
+    "ratio": 0.5000000010495569,
+    "mu": 0.5,
+    "beta0": 2.0
+   },
+   {
+    "label": "projection of the octahedron, direction 2",
+    "key": "octa",
+    "p": 2.0,
+    "beta": 2.0000000222360605,
+    "ratio": 0.5000000055590151,
+    "mu": 0.5,
+    "beta0": 2.0
+   },
+   {
+    "label": "projection of the octahedron, direction 3",
+    "key": "octa",
+    "p": 2.0,
+    "beta": 2.00000011927138,
+    "ratio": 0.500000029817845,
+    "mu": 0.5,
+    "beta0": 2.0
+   }
+  ],
+  "random": {
+   "n": 300,
+   "max_ratio": 0.9994307613893424,
+   "worst": {
+    "p": 5.971958415430518,
+    "beta": 7.967420468897898,
+    "nodes": [
+     0.0,
+     0.998130232262949,
+     1.0
+    ],
+    "values": [
+     0.0,
+     0.9560371624997769,
+     0.9435504043376316
+    ]
+   },
+   "seconds": 6.4
+  },
+  "mc": [
+   {
+    "label": "$(1-x)^{3}$",
+    "p": 3.0,
+    "n": 5,
+    "samples": 200000,
+    "sumerr": 4.440892098500626e-16,
+    "tests": 5,
+    "min_p": 0.18782638097005477,
+    "inrange": true
+   },
+   {
+    "label": "tent, mode $\\frac14$, $p=2$",
+    "p": 2.0,
+    "n": 4,
+    "samples": 200000,
+    "sumerr": 4.440892098500626e-16,
+    "tests": 4,
+    "min_p": 0.6295112238075407,
+    "inrange": true
+   },
+   {
+    "label": "projection of the tetrahedron, direction 1",
+    "p": 2.0,
+    "n": 4,
+    "samples": 200000,
+    "sumerr": 8.881784197001252e-16,
+    "tests": 4,
+    "min_p": 0.16127121335690442,
+    "inrange": true
+   },
+   {
+    "label": "projection of the octahedron, direction 1",
+    "p": 2.0,
+    "n": 4,
+    "samples": 200000,
+    "sumerr": 4.440892098500626e-16,
+    "tests": 4,
+    "min_p": 0.5626344557011751,
+    "inrange": true
+   }
+  ],
+  "seconds": 7.4
+ },
+ "partB": {
+  "rows": [
+   {
+    "k": 3,
+    "min_alpha_over_x": 0.0,
+    "alpha_half": 0.0,
+    "alpha_half_formula": 0.0,
+    "mass_err": 1.971756091734278e-13,
+    "identity_err": 3.552713678800501e-15
+   },
+   {
+    "k": 4,
+    "min_alpha_over_x": 1.0,
+    "alpha_half": 0.5,
+    "alpha_half_formula": 0.5,
+    "mass_err": 5.260236690673992e-13,
+    "identity_err": 3.552713678800501e-15
+   },
+   {
+    "k": 5,
+    "min_alpha_over_x": 0.9375,
+    "alpha_half": 0.46875,
+    "alpha_half_formula": 0.46875,
+    "mass_err": 1.3855583347321954e-13,
+    "identity_err": 3.9968028886505635e-15
+   },
+   {
+    "k": 6,
+    "min_alpha_over_x": 0.675,
+    "alpha_half": 0.3375,
+    "alpha_half_formula": 0.3375,
+    "mass_err": 2.5868196473766147e-13,
+    "identity_err": 7.105427357601002e-15
+   },
+   {
+    "k": 7,
+    "min_alpha_over_x": 0.4375,
+    "alpha_half": 0.21875,
+    "alpha_half_formula": 0.21875,
+    "mass_err": 4.405364961712621e-13,
+    "identity_err": 1.0658141036401503e-14
+   },
+   {
+    "k": 8,
+    "min_alpha_over_x": 0.26785714285714285,
+    "alpha_half": 0.13392857142857142,
+    "alpha_half_formula": 0.13392857142857142,
+    "mass_err": 6.969980148596733e-13,
+    "identity_err": 2.1760371282653068e-14
+   },
+   {
+    "k": 9,
+    "min_alpha_over_x": 0.158203125,
+    "alpha_half": 0.0791015625,
+    "alpha_half_formula": 0.0791015625,
+    "mass_err": 1.2989609388114332e-13,
+    "identity_err": 3.419486915845482e-14
+   },
+   {
+    "k": 10,
+    "min_alpha_over_x": 0.09114583333333333,
+    "alpha_half": 0.045572916666666664,
+    "alpha_half_formula": 0.045572916666666664,
+    "mass_err": 1.865174681370263e-13,
+    "identity_err": 5.1514348342607263e-14
+   },
+   {
+    "k": 11,
+    "min_alpha_over_x": 0.0515625,
+    "alpha_half": 0.02578125,
+    "alpha_half_formula": 0.02578125,
+    "mass_err": 2.531308496145357e-13,
+    "identity_err": 7.66053886991358e-14
+   },
+   {
+    "k": 12,
+    "min_alpha_over_x": 0.028764204545454544,
+    "alpha_half": 0.014382102272727272,
+    "alpha_half_formula": 0.014382102272727272,
+    "mass_err": 3.3861802251067274e-13,
+    "identity_err": 1.397770788003072e-13
+   },
+   {
+    "k": 13,
+    "min_alpha_over_x": 0.015869140625,
+    "alpha_half": 0.0079345703125,
+    "alpha_half_formula": 0.0079345703125,
+    "mass_err": 4.376499163072367e-13,
+    "identity_err": 1.5143442055887135e-13
+   },
+   {
+    "k": 14,
+    "min_alpha_over_x": 0.008676382211538462,
+    "alpha_half": 0.004338191105769231,
+    "alpha_half_formula": 0.004338191105769231,
+    "mass_err": 5.624389842751043e-13,
+    "identity_err": 2.363317874731763e-13
+   },
+   {
+    "k": 15,
+    "min_alpha_over_x": 0.004708426339285714,
+    "alpha_half": 0.002354213169642857,
+    "alpha_half_formula": 0.002354213169642857,
+    "mass_err": 6.983302824892235e-13,
+    "identity_err": 7.079337116522311e-13
+   },
+   {
+    "k": 16,
+    "min_alpha_over_x": 0.0025390625,
+    "alpha_half": 0.00126953125,
+    "alpha_half_formula": 0.00126953125,
+    "mass_err": 1.8318679906315083e-14,
+    "identity_err": 7.659359257949916e-13
+   }
+  ],
+  "closed_k3": 3.608224830031759e-15,
+  "star": {
+   "tent k=2": {
+    "lhs": 0.5,
+    "rhs": 1.0,
+    "holds": false
+   },
+   "tent k=3": {
+    "lhs": 0.25,
+    "rhs": 0.25,
+    "holds": true
+   },
+   "tent k=4": {
+    "lhs": 0.125,
+    "rhs": 0.08333333333333333,
+    "holds": true
+   },
+   "tent k=8": {
+    "lhs": 0.0078125,
+    "rhs": 0.0022321428571428575,
+    "holds": true
+   },
+   "elongated h=0.25 k=3": {
+    "lhs": 0.4444444444444444,
+    "rhs": 0.44444444444444453,
+    "holds": true
+   },
+   "elongated h=0.5 k=3": {
+    "lhs": 1.0,
+    "rhs": 1.0,
+    "holds": true
+   },
+   "elongated h=0.6 k=3": {
+    "lhs": 1.0,
+    "rhs": 1.4462871026332367,
+    "holds": false
+   },
+   "ball k=3": {
+    "lhs": 0.7499999999999999,
+    "rhs": 1.75,
+    "holds": false
+   },
+   "ball k=6": {
+    "lhs": 0.4871392896287466,
+    "rhs": 0.49311458961466015,
+    "holds": false
+   },
+   "ball k=7": {
+    "lhs": 0.42187499999999983,
+    "rhs": 0.36145833333333327,
+    "holds": true
+   },
+   "ball k=8": {
+    "lhs": 0.3653544672215599,
+    "rhs": 0.271746170480499,
+    "holds": true
+   }
+  },
+  "seconds": 0.9
+ },
+ "partC": {
+  "rows": [
+   {
+    "body": "regular octahedron",
+    "k": 3,
+    "n": 3,
+    "samples": 200000,
+    "max_sum_dev": 4.440892098500626e-16,
+    "outside": -1.6452574902459105e-07,
+    "tests": 9,
+    "min_p": 0.06673545535875514,
+    "alpha_min": 0.0,
+    "alpha_mass_err": 2.721259395599418e-08
+   },
+   {
+    "body": "regular octahedron",
+    "k": 3,
+    "n": 5,
+    "samples": 200000,
+    "max_sum_dev": 5.551115123125783e-16,
+    "outside": -4.188560482898396e-07,
+    "tests": 15,
+    "min_p": 0.07910392108993625,
+    "alpha_min": 0.0,
+    "alpha_mass_err": 2.721259395599418e-08
+   },
+   {
+    "body": "double cone over a disc",
+    "k": 3,
+    "n": 3,
+    "samples": 200000,
+    "max_sum_dev": 4.718447854656915e-16,
+    "outside": -3.1057844440685045e-06,
+    "tests": 9,
+    "min_p": 0.24171422742479576,
+    "alpha_min": 0.0,
+    "alpha_mass_err": 2.721259395599418e-08
+   },
+   {
+    "body": "bipyramid over a cube",
+    "k": 4,
+    "n": 3,
+    "samples": 200000,
+    "max_sum_dev": 4.440892098500626e-16,
+    "outside": -8.309735460843015e-08,
+    "tests": 12,
+    "min_p": 0.08258666947816151,
+    "alpha_min": 4.199984793347666e-06,
+    "alpha_mass_err": 4.658766161735883e-08
+   },
+   {
+    "body": "elongated octahedron",
+    "k": 3,
+    "n": 3,
+    "samples": 200000,
+    "max_sum_dev": 1.1102230246251565e-16,
+    "outside": -1.3839919853486649e-06,
+    "tests": 9,
+    "min_p": 0.15214217926933427,
+    "alpha_min": 0.0,
+    "alpha_mass_err": 1.9143895357842666e-08
+   }
+  ],
+  "tests": 54,
+  "min_p": 0.06673545535875514,
+  "chance_min_p": 0.9759974480767631,
+  "seconds": 4.6
+ },
+ "partD": {
+  "rows": [
+   {
+    "body": "half-disc",
+    "n": 3,
+    "J": 120,
+    "constrained": 0.0018414198050279809,
+    "free": 0.001180754249818052,
+    "tuples": 1722,
+    "tuples_free": 1739
+   },
+   {
+    "body": "half-disc",
+    "n": 3,
+    "J": 240,
+    "constrained": 0.0011754345629244318,
+    "free": 0.0011754345629246678,
+    "tuples": 6802,
+    "tuples_free": 6835
+   },
+   {
+    "body": "half-disc",
+    "n": 3,
+    "J": 480,
+    "constrained": 0.00021507933023564123,
+    "free": 0.0002150793302359546,
+    "tuples": 26994,
+    "tuples_free": 27060
+   },
+   {
+    "body": "half-disc",
+    "n": 3,
+    "J": 960,
+    "constrained": 0.0002154029221516666,
+    "free": 0.0002154029221521986,
+    "tuples": 107629,
+    "tuples_free": 107760
+   },
+   {
+    "body": "regular pentagon",
+    "n": 3,
+    "J": 120,
+    "constrained": 8.898285935998931e-05,
+    "free": 2.2462613618689243e-05,
+    "tuples": 1634,
+    "tuples_free": 1800
+   },
+   {
+    "body": "regular pentagon",
+    "n": 3,
+    "J": 240,
+    "constrained": 1.85527579529156e-05,
+    "free": 1.8552757953018245e-05,
+    "tuples": 6490,
+    "tuples_free": 7080
+   },
+   {
+    "body": "regular pentagon",
+    "n": 3,
+    "J": 480,
+    "constrained": 1.7576328994884452e-05,
+    "free": 1.757632899487981e-05,
+    "tuples": 25860,
+    "tuples_free": 28078
+   },
+   {
+    "body": "regular pentagon",
+    "n": 3,
+    "J": 960,
+    "constrained": 1.7334650565619476e-05,
+    "free": 1.7334650565409622e-05,
+    "tuples": 103238,
+    "tuples_free": 111830
+   },
+   {
+    "body": "kite",
+    "n": 3,
+    "J": 120,
+    "constrained": 0.000396825396825322,
+    "free": 0.0,
+    "tuples": 985,
+    "tuples_free": 1765
+   },
+   {
+    "body": "kite",
+    "n": 3,
+    "J": 240,
+    "constrained": 9.92063492053561e-05,
+    "free": 0.0,
+    "tuples": 3865,
+    "tuples_free": 6937
+   },
+   {
+    "body": "kite",
+    "n": 3,
+    "J": 480,
+    "constrained": 2.4774151917316187e-05,
+    "free": 0.0,
+    "tuples": 15313,
+    "tuples_free": 27505
+   },
+   {
+    "body": "kite",
+    "n": 3,
+    "J": 960,
+    "constrained": 6.196526415331476e-06,
+    "free": 0.0,
+    "tuples": 60961,
+    "tuples_free": 109537
+   },
+   {
+    "body": "triangle",
+    "n": 3,
+    "J": 120,
+    "constrained": 1.1574074073990378e-05,
+    "free": 1.1574074073990378e-05,
+    "tuples": 1261,
+    "tuples_free": 1261
+   },
+   {
+    "body": "triangle",
+    "n": 3,
+    "J": 240,
+    "constrained": 2.8935185186766116e-06,
+    "free": 2.8935185186766116e-06,
+    "tuples": 4921,
+    "tuples_free": 4921
+   },
+   {
+    "body": "triangle",
+    "n": 3,
+    "J": 480,
+    "constrained": 7.233796296781236e-07,
+    "free": 7.233796296781236e-07,
+    "tuples": 19441,
+    "tuples_free": 19441
+   },
+   {
+    "body": "triangle",
+    "n": 3,
+    "J": 960,
+    "constrained": 1.8084490740732373e-07,
+    "free": 1.8084490740732373e-07,
+    "tuples": 77281,
+    "tuples_free": 77281
+   },
+   {
+    "body": "disc",
+    "n": 3,
+    "J": 120,
+    "constrained": 0.0,
+    "free": 0.0,
+    "tuples": 1658,
+    "tuples_free": 1861
+   },
+   {
+    "body": "disc",
+    "n": 3,
+    "J": 240,
+    "constrained": 0.0,
+    "free": 0.0,
+    "tuples": 6582,
+    "tuples_free": 7321
+   },
+   {
+    "body": "disc",
+    "n": 3,
+    "J": 480,
+    "constrained": 0.0,
+    "free": 0.0,
+    "tuples": 26228,
+    "tuples_free": 29041
+   },
+   {
+    "body": "disc",
+    "n": 3,
+    "J": 960,
+    "constrained": 0.0,
+    "free": 0.0,
+    "tuples": 104700,
+    "tuples_free": 115681
+   }
+  ],
+  "more": [
+   {
+    "body": "half-disc",
+    "n": 4,
+    "J": 60,
+    "constrained": 0.0012016902838987284,
+    "free": 0.0012016902838987284,
+    "tuples": 6062,
+    "tuples_free": 6062
+   },
+   {
+    "body": "half-disc",
+    "n": 4,
+    "J": 120,
+    "constrained": 0.0011807542498181562,
+    "free": 0.0011807542498181562,
+    "tuples": 45425,
+    "tuples_free": 45425
+   },
+   {
+    "body": "half-disc",
+    "n": 5,
+    "J": 40,
+    "constrained": 0.0012360376451418186,
+    "free": 0.0012360376451418186,
+    "tuples": 14984,
+    "tuples_free": 14984
+   },
+   {
+    "body": "half-disc",
+    "n": 5,
+    "J": 80,
+    "constrained": 0.0011895240362708548,
+    "free": 0.0011895240362708548,
+    "tuples": 206214,
+    "tuples_free": 206214
+   },
+   {
+    "body": "regular pentagon",
+    "n": 4,
+    "J": 60,
+    "constrained": 0.002788782682987139,
+    "free": 0.002788782682987139,
+    "tuples": 6383,
+    "tuples_free": 6383
+   },
+   {
+    "body": "regular pentagon",
+    "n": 4,
+    "J": 120,
+    "constrained": 0.0014113515025074709,
+    "free": 0.0014113515025074709,
+    "tuples": 48190,
+    "tuples_free": 48190
+   },
+   {
+    "body": "regular pentagon",
+    "n": 5,
+    "J": 40,
+    "constrained": 0.004478951211873688,
+    "free": 0.004478951211873628,
+    "tuples": 15908,
+    "tuples_free": 15912
+   },
+   {
+    "body": "regular pentagon",
+    "n": 5,
+    "J": 80,
+    "constrained": 0.0005845281435183584,
+    "free": 0.000584528143518431,
+    "tuples": 221388,
+    "tuples_free": 221400
+   },
+   {
+    "body": "kite",
+    "n": 4,
+    "J": 60,
+    "constrained": 0.0,
+    "free": 0.0,
+    "tuples": 5771,
+    "tuples_free": 6203
+   },
+   {
+    "body": "kite",
+    "n": 4,
+    "J": 120,
+    "constrained": 0.0,
+    "free": 0.0,
+    "tuples": 43611,
+    "tuples_free": 46524
+   },
+   {
+    "body": "kite",
+    "n": 5,
+    "J": 40,
+    "constrained": 0.0033920940170940267,
+    "free": 0.003392094017094172,
+    "tuples": 14663,
+    "tuples_free": 15478
+   },
+   {
+    "body": "kite",
+    "n": 5,
+    "J": 80,
+    "constrained": 0.0016950931013430602,
+    "free": 0.0016950931013429778,
+    "tuples": 202364,
+    "tuples_free": 211764
+   }
+  ],
+  "seconds": 51.1
+ },
+ "seconds": 64.1,
+ "settings": {
+  "MC": 200000,
+  "NRAND": 300,
+  "KMAX": 16,
+  "SEED": 2026
+ }
+}
