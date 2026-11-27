@@ -729,3 +729,6 @@ Run with `lake env lean Verify.lean` after `lake build`.
 #print axioms Mixes.Remarks14.collinear_of_tight
 #print axioms Mixes.Remarks14.disc_polygon_fails
 #print axioms Mixes.Remarks14.chord_jointMix
+#print axioms Mixes.Archimedes.archimedes
+#print axioms Mixes.Archimedes.sphUnif_map_inner_uncond
+#print axioms Mixes.Archimedes.isArchimedesMeasure_sphUnif_uncond

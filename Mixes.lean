@@ -71,3 +71,4 @@ import Mixes.ConvSq
 import Mixes.TwoStepBorel
 import Mixes.Steinitz
 import Mixes.AsymBridge
+import Mixes.Archimedes

@@ -375,8 +375,9 @@ with marginal `n⁻¹ Σ_j U[l_j, r_j]`. All of this is in `Mixes/Defs.lean`.
   formalised.
 - **Proposition `rm:prop:generic` and the new remarks** (`Remarks14.lean`): `prop_generic_a_mix`,
   `prop_generic_b`, `prop_generic_c`, `jointlyMixable_iff_exists_cE`; the remark on Lemma 1
-  (`isArchimedesMeasure_sphUnif`, which takes the theorem of Archimedes on the projection of the
-  sphere `S²` as a hypothesis), the remark on Theorem 6 (`tau_exchange`, `rho_exchange`,
+  (`isArchimedesMeasure_sphUnif_uncond`, with the theorem of Archimedes on the projections of the
+  uniform distribution on the sphere `S²` proved in `Archimedes.lean`: `archimedes`,
+  `sphUnif_map_inner_uncond`), the remark on Theorem 6 (`tau_exchange`, `rho_exchange`,
   `S_no_jump`, `collinear_of_tight`), and the remark on trapezoids (`chord_jointMix`,
   `disc_polygon_fails`).
 
