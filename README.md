@@ -318,6 +318,68 @@ with marginal `n⁻¹ Σ_j U[l_j, r_j]`. All of this is in `Mixes/Defs.lean`.
   Theorem 51, Theorem 70, the Brunn–Minkowski inequality and the classical volumes and inradii of
   the regular polytopes are hypotheses; the numerical inequalities are proved.
 
+### Further open questions (the sections on asymmetric windows, projections, the norm condition and lattices)
+
+- **Lemma `as:lem:tilt`, Proposition `as:prop:window`** (`AsymWindow.lean`): `lemTilt` (the tilted
+  density `P_{H,γ}` has an `m`-complete mix with sum `mγH/2` for `m ≥ 4, |γ| ≤ 1` and for
+  `m = 3, |γ| ≤ 2/3`, with a measurable kernel in `γ`: `tiltKH_spec`, `measurable_tiltKH`), the
+  identity `as:eq:affine` (`eq_affine`), and the window proposition in dimension `d`
+  (`propWindow`), on the line (`propWindowReal`) and for `m = 3` (`propWindowThree`).
+- **Lemma `as:lem:conc`, Theorem `as:thm:window`, Corollary `as:cor:interval`** (`AsymThm.lean`,
+  `Steinitz.lean`): (a) `lem_conc_a`, (b) `lem_conc_b`, (c) `lem_conc_c_uncond`; the window
+  theorem in every dimension (`thm_window_all`, on the line `thm_window_one_proved`); the
+  corollary (`cor_interval_proved`, `cor_interval_n_proved`, `cor_interval_density_proved`). The
+  Steinitz lemma with constant `d` (Grinberg–Sevastyanov) is proved in every finite-dimensional
+  normed space (`steinitz_normed`).
+- **Theorem `as:thm:general`, Corollaries `as:cor:body`, `as:cor:order`** (`AsymGeneral.lean`,
+  `AsymBridge.lean`): `thm_general_b`, `thm_general_mix_b`, `cor_order_b`, and `cor_body_b`
+  (`N*(2) = 579`, `N*(3) = 27548`), which takes John's theorem (`JohnThm`) as a hypothesis.
+- **Propositions `as:prop:complete`, `as:prop:three`, Corollaries `as:cor:repeat`,
+  `as:cor:three`, Remark `as:rem:three`** (`AsymThree.lean`, `ConvSq.lean`, `TwoStepBorel.lean`,
+  `AsymBridge.lean`): `prop_complete_b`, `prop_complete_dirac_b`, `four_uniform_jointlyMixable_b`,
+  `cor_repeat_b`, `prop_three_b`, `cor_three_b`, `cor_three_mixable_b`, `cor_three_a_b`,
+  `cor_three_b_b` (the theorem of Puccetti, Wang and Wang), `cor_three_c_b`, `rem_three_b`. The
+  step `G ∗ G ≥ q U` for a law with a nonzero absolutely continuous part (`convSq`) and the Borel
+  dependence of the two-step complete mixes on their parameters (`twoStepBorel`) are proved.
+- **Theorem `as:thm:hetero`, Corollary `as:cor:hetero`** (`AsymHetero.lean`, `AsymBridge.lean`):
+  `thm_hetero_b`, `thm_hetero_strong_b`, `thm_hetero_jointlyMixable_b`, `cor_hetero_b`,
+  `cor_hetero_jointlyMixable_b`, `cor_hetero_n_b`.
+- **Lemmas `pj:lem:three`, `pj:lem:example`, `pj:lem:gadget`** (`ProjLemmas.lean`): `three_a`,
+  `three_b`, `ex_not_jointlyMixable`, `ex_map_jointlyMixable`, `gadget_a`, `gadget_b`.
+- **Theorem `pj:thm:main`, Corollary `pj:cor:confine`, Remark `pj:rem:positive`**
+  (`ProjMain.lean`): a smooth compactly supported density (`pj_thm_main_uncond`) and an
+  everywhere positive real-analytic density (`pj_thm_main_analytic_uncond`) whose images under
+  all linear maps with a nontrivial kernel are `n`-completely mixable while the law itself is not;
+  projections onto proper subspaces (`pj_thm_main_proj_uncond`); the corollary
+  (`pj_cor_confine_uncond`); products (`rem_product`). Analyticity of Gaussian smoothings is proved
+  through an explicit power series (`laplace_analytic`).
+- **Lemmas `nc:lem:peak`, `nc:lem:count`, Proposition `nc:prop:atom`, Corollary `nc:cor:least`**
+  (`NormAtom.lean`, `StopLoss.lean`): `peak`, `peak_interval`, `peak_completelyMixable`,
+  `count_lemma`, `count_lemma_reflect`, `atom_completelyMixable_iff`, `atom_stopLoss`,
+  `atom_cx_uncond`, `cor_least_iff`, `cor_least_explicit_uncond`, `cor_least_exists_uncond`. That
+  the stop-loss order with equal means and bounded support implies the convex order
+  (Shaked–Shanthikumar) is proved (`stoploss_cx`). The norm inequalities take the cited theorem of
+  Shmalo (`H_shmalo26b`) as a hypothesis.
+- **Theorem `nc:thm:unimodal`, Corollary `nc:cor:alln`** (`NormUnimodal.lean`, `AsymBridge.lean`):
+  `cxCond_of_SL_b`, `cx_F1_F2_b`, `cor_alln_mixable_b`, `threshold_unimodal_b`; with Shmalo's
+  theorem as a hypothesis, `normIneqs_of_SL_b`, `thm_unimodal_norm_b`, `cor_alln_norm_b`.
+- **Lemma `lt:lem:count`, Propositions `lt:prop:ops`, `lt:prop:three`, Theorem `lt:thm:pb`**
+  (`LatticeBasic.lean`): `count_iff_fintype`, `ops_a`, `ops_b`, `ops_c`, `three_cm_iff`,
+  `binom2_cm_iff`, `binom_completelyMixable`.
+- **Theorem `lt:thm:large`, Proposition `lt:prop:binomial`, Remark `lt:rem:necessary`**
+  (`LatticeLarge.lean`, `LatticeBridge.lean`): `large_a_uncond`, `large_b_uncond`,
+  `large_eventually_uncond`, `large_c_int`, `large_c_two_uncond`, `binomial_a_uncond`,
+  `binomial_b_add`, `binomial_b_N0`, `binomial_c_uncond` (the computed cases `n ≤ 10`,
+  `N₀ ≤ 12` are 1665 certificates checked by kernel evaluation), `remark_necessary_uncond` (the
+  three distributions of the remark). The closing sentence of the remark on the searches is not
+  formalised.
+- **Proposition `rm:prop:generic` and the new remarks** (`Remarks14.lean`): `prop_generic_a_mix`,
+  `prop_generic_b`, `prop_generic_c`, `jointlyMixable_iff_exists_cE`; the remark on Lemma 1
+  (`isArchimedesMeasure_sphUnif`, which takes the theorem of Archimedes on the projection of the
+  sphere `S²` as a hypothesis), the remark on Theorem 6 (`tau_exchange`, `rho_exchange`,
+  `S_no_jump`, `collinear_of_tight`), and the remark on trapezoids (`chord_jointMix`,
+  `disc_polygon_fails`).
+
 No statement treated was found false.
 
 ## Differences from the paper
@@ -501,6 +563,13 @@ No statement treated was found false.
 - Proposition 86: the phrase "no sliced mix" is not formalised, since "sliced" is not defined.
 - Proposition 98: `K` and `L` need only be measurable with `0 < |L|` and `|K| < ∞`; convexity,
   compactness and the centroid are not used, and `m ≠ 0` replaces `m ≥ 2`.
+- Further open questions: "explicit" random variables are not formalised, only the existence
+  of the mixes; `as:prop:complete` needs `ℓ ≥ 0` (for an empty family and `ℓ < 0` it fails); in
+  `as:thm:general` the constant is `κ = qH/(8d)` rather than `qH/(4d)`; `as:thm:hetero` is proved
+  with the stronger window `m₂H/2 − ℓ`; in `nc:cor:least` the range `n ≤ n₀` is `1 ≤ n ≤ n₀`, and
+  the necessity in `nc:prop:atom`(a) holds for every `n ≥ 2`; `lt:thm:large`(b) needs only vectors
+  of `Λ` spanning `Λ_ℝ`, and (c) only that the differences of the points have greatest common
+  divisor 1; in `pj:thm:main` the Gaussian smoothing exists for `δ = 1/(k+1)`, `k` large.
 
 ## What to read
 
