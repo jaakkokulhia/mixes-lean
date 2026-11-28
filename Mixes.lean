@@ -76,3 +76,4 @@ import Mixes.AsymRate
 import Mixes.BorelSelect
 import Mixes.Combined
 import Mixes.PrekopaLeindler
+import Mixes.Brunn74

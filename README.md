@@ -401,6 +401,12 @@ with marginal `n⁻¹ Σ_j U[l_j, r_j]`. All of this is in `Mixes/Defs.lean`.
   hypothesis `PLHyp` of Theorem 95 (`plHyp`). Hence Corollary 68 and Theorem 95 without hypotheses
   (`cor68_pl`, `thm95_pl`, `cm_of_cond22_pl`, `cor96d_poly_pl`).
 
+- **Corollary 74(b) without hypotheses** (`Brunn74.lean`): for a convex body `K` in a space of
+  dimension `d ≥ 2` and a nonzero linear functional `u`, the law of `u(X)`, `X ∼ U(K)`, is an affine
+  image of a law on `[0, 1]` with density `g^(d-1)`, `g ≥ 0` concave and continuous (`exists_brunn`,
+  from `PrekopaLeindler.brunnSections`); hence `cor74b_brunn` and `cor74b_bridges`, Corollary 74(b)
+  with Brunn's theorem proved.
+
 No statement treated was found false.
 
 ## Differences from the paper
