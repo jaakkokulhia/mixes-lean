@@ -72,3 +72,6 @@ import Mixes.TwoStepBorel
 import Mixes.Steinitz
 import Mixes.AsymBridge
 import Mixes.Archimedes
+import Mixes.AsymRate
+import Mixes.BorelSelect
+import Mixes.Combined

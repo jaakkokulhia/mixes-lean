@@ -381,6 +381,16 @@ with marginal `n⁻¹ Σ_j U[l_j, r_j]`. All of this is in `Mixes/Defs.lean`.
   `S_no_jump`, `collinear_of_tight`), and the remark on trapezoids (`chord_jointMix`,
   `disc_polygon_fails`).
 
+- **Sharper rate, measurable selection, and combined statements** (`AsymRate.lean`,
+  `BorelSelect.lean`, `Combined.lean`): `as:thm:general` and `as:cor:order` for every
+  `κ < qH/(4d)` (`thm_general_rate`, `cor_order_rate`); the measurable selection theorem of
+  Kuratowski and Ryll-Nardzewski for compact values (`exists_selection`), hence Theorem 120
+  without hypotheses (`thm120_a_uncond`, `thm120_uncond`); and single theorems, in the paper's
+  coordinates, for Lemma 18 with the paper's merging procedure (`res18`), Theorem 43 (`res43`),
+  Corollary 45 (`res45`), Theorem 56 (`res56`), Corollary 57 (`res57`), Corollary 58 (`res58`),
+  Lemma 59 (`res59`), Theorem 79 (`res79`) and Proposition 86 with the paper's definition of a
+  sliced mix (`res86`).
+
 No statement treated was found false.
 
 ## Differences from the paper
