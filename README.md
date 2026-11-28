@@ -407,6 +407,16 @@ with marginal `n⁻¹ Σ_j U[l_j, r_j]`. All of this is in `Mixes/Defs.lean`.
   from `PrekopaLeindler.brunnSections`); hence `cor74b_brunn` and `cor74b_bridges`, Corollary 74(b)
   with Brunn's theorem proved.
 
+- **Corollary 96(d), further** (`Poly96.lean`): the triangle, square and hexagon in the
+  coordinates of Theorem 95, without hypotheses (`tri_cm`, `sq_cm`, `hex_cm`, `small_iff`, from
+  Theorem 40 and the rotation argument); the closed forms `aF 1 1 = 3π²/4 − 4` and
+  `aF 2 0 = π³ − 16π/3`, which prove two of the paper's floating-point bounds (`aF11_ge`,
+  `aF20_le`); with `PrekopaLeindler.plHyp`, Corollary 96(d) for every `k ≥ 8` and for `k = 3, 4, 6`
+  under four numerical bounds only (`cor96d_noc`, `cor96d_noc_iff`: the lower bounds on `a₄` at
+  `sec(π/8)`, `sec(π/9)` and on `a₅` at `1`, `sec(π/9)`, which have no closed form and margins of
+  0.1–0.2 %), and for every `k ≥ 3` when the `k = 7` corner area and the four Table 15 cases are
+  added (`cor96d_from_cond`, `cor96d_from_cond_iff`).
+
 No statement treated was found false.
 
 ## Differences from the paper

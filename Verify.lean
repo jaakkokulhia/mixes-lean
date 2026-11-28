@@ -763,3 +763,13 @@ Run with `lake env lean Verify.lean` after `lake build`.
 #print axioms Mixes.Brunn74.exists_brunn
 #print axioms Mixes.Brunn74.cor74b_brunn
 #print axioms Mixes.Brunn74.cor74b_bridges
+#print axioms Mixes.Poly96.tri_cm
+#print axioms Mixes.Poly96.sq_cm
+#print axioms Mixes.Poly96.hex_cm
+#print axioms Mixes.Poly96.small_iff
+#print axioms Mixes.Poly96.aF11_ge
+#print axioms Mixes.Poly96.aF20_le
+#print axioms Mixes.Poly96.cor96d_noc
+#print axioms Mixes.Poly96.cor96d_noc_iff
+#print axioms Mixes.Poly96.cor96d_from_cond
+#print axioms Mixes.Poly96.cor96d_from_cond_iff
