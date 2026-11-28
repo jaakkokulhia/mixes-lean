@@ -196,7 +196,8 @@ with marginal `n⁻¹ Σ_j U[l_j, r_j]`. All of this is in `Mixes/Defs.lean`.
   `cor96d_poly`: `U(P_k)` is `n`-completely mixable for every `k ≥ 3` and `n ≥ 3`, and
   `cor96d_poly_iff`: for `n ≥ 2` exactly when `n ≥ 3` or `k` is even
   (`completelyMixable_two_iff_even` without hypotheses). Hypotheses of `cor96d_poly`:
-  Prékopa–Leindler in the form `PLHyp` (the radial profiles of the `λ_m` do not increase); the
+  Prékopa–Leindler in the form `PLHyp` (the radial profiles of the `λ_m` do not increase; now proved,
+  `PrekopaLeindler.plHyp`); the
   paper's floating-point bounds on `a₄`, `a₅`, `c₄` and the `k = 7` corner area; the four cases
   of (c) as `Cond22` (the Table 15 check); and the triangle, square and hexagon for `n = 3, 4, 5`,
   which are proved elsewhere in this repository (Corollary 44, Lemma 50) in other coordinates and
@@ -242,7 +243,7 @@ with marginal `n⁻¹ Σ_j U[l_j, r_j]`. All of this is in `Mixes/Defs.lean`.
   `cor99b_four`: `ℝ⁴`, every `n ≥ 2` except 3; `cor99b_five`: `ℝ⁵`, every `n ≥ 2` except 3, 5).
 - **Corollary 68** (`Proj.lean`): for a convex body `K` of dimension `d ≥ 2` and a nonzero linear
   functional `u`, the law of `u(X)`, `X ∼ U(K)`, is `n`-completely mixable for every `n ≥ d + 1`
-  (`cor68`, with Brunn's theorem as the hypothesis `BrunnSections`), and for a cone over a base
+  (`cor68`, with Brunn's theorem as the hypothesis `BrunnSections`; without it, `PrekopaLeindler.cor68_pl`), and for a cone over a base
   on which `u` is constant not for `n ≤ d` (`cor68_cone`, without hypotheses); Theorem 67 for a
   density `h^p` with `h` concave on an open interval (`pconc_Ioo`).
 - **Corollary 84(f)** (`Flat.lean`): the regular `2m`-gons with `2m ≤ 18`, sliced perpendicular to
@@ -315,7 +316,7 @@ with marginal `n⁻¹ Σ_j U[l_j, r_j]`. All of this is in `Mixes/Defs.lean`.
   (c) bodies whose inscribed ball is large (`ball_core`), the dodecahedron, the icosahedron, the
   24-cell, the 600-cell and the 120-cell; (d) bodies with an affine symmetry of order 3
   (`partD`, `partD_plane`). Ball's volume-ratio theorems with John's ellipsoid, the sufficiency in
-  Theorem 51, Theorem 70, the Brunn–Minkowski inequality and the classical volumes and inradii of
+  Theorem 51, Theorem 70, the Brunn–Minkowski inequality (since proved in `PrekopaLeindler.lean`) and the classical volumes and inradii of
   the regular polytopes are hypotheses; the numerical inequalities are proved.
 
 ### Further open questions (the sections on asymmetric windows, projections, the norm condition and lattices)
@@ -390,6 +391,15 @@ with marginal `n⁻¹ Σ_j U[l_j, r_j]`. All of this is in `Mixes/Defs.lean`.
   Corollary 45 (`res45`), Theorem 56 (`res56`), Corollary 57 (`res57`), Corollary 58 (`res58`),
   Lemma 59 (`res59`), Theorem 79 (`res79`) and Proposition 86 with the paper's definition of a
   sliced mix (`res86`).
+
+- **Prékopa–Leindler and Brunn–Minkowski** (`PrekopaLeindler.lean`; neither is in Mathlib):
+  Brunn–Minkowski on the line (`bm1`), the Prékopa–Leindler inequality on the line (`pl1`) and in
+  `ℝⁿ` and `ℂᵐ` (`prekopa_leindler`, `prekopa_leindler_complex`) for measurable functions with values
+  in `[0, ∞]`, by tensorisation of the property along products; the multiplicative and additive
+  Brunn–Minkowski inequalities (`bm_mul_of_plProp`, `brunn_minkowski`); Brunn's theorem on the
+  concavity of the `1/m`-th power of section volumes of a convex body (`brunnSections`); and the
+  hypothesis `PLHyp` of Theorem 95 (`plHyp`). Hence Corollary 68 and Theorem 95 without hypotheses
+  (`cor68_pl`, `thm95_pl`, `cm_of_cond22_pl`, `cor96d_poly_pl`).
 
 No statement treated was found false.
 

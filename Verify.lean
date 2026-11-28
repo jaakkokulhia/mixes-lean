@@ -748,3 +748,13 @@ Run with `lake env lean Verify.lean` after `lake build`.
 #print axioms Mixes.Combined.res59
 #print axioms Mixes.Combined.res79
 #print axioms Mixes.Combined.res86
+#print axioms Mixes.PrekopaLeindler.bm1
+#print axioms Mixes.PrekopaLeindler.pl1
+#print axioms Mixes.PrekopaLeindler.prekopa_leindler
+#print axioms Mixes.PrekopaLeindler.prekopa_leindler_complex
+#print axioms Mixes.PrekopaLeindler.brunn_minkowski
+#print axioms Mixes.PrekopaLeindler.plHyp
+#print axioms Mixes.PrekopaLeindler.brunnSections
+#print axioms Mixes.PrekopaLeindler.cor68_pl
+#print axioms Mixes.PrekopaLeindler.thm95_pl
+#print axioms Mixes.PrekopaLeindler.cor96d_poly_pl
